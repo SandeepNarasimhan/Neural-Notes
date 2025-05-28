@@ -197,7 +197,7 @@ Here are some topics I’ll be covering soon:
 - The Machine Learning Workflow Explained
 - Exploratory Data Analysis (EDA) for Beginners
 - Data Cleaning 101
-- Feature Engineering Demystified
+- Feature Engineering
 - Model Selection Simplified
 - Evaluation Metrics Made Easy
 
