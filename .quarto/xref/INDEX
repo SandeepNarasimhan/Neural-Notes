@@ -4,5 +4,8 @@
   },
   "about.qmd": {
     "about.html": "d90aba36"
+  },
+  "posts/Intro to Data Science.qmd": {
+    "Intro to Data Science.html": "fa7ec6f8"
   }
 }
