@@ -1,5 +1,6 @@
 ---
 title: "A Beginner's Guide to Data Science and Machine Learning"
+author: "Sandeep N"
 date: 2025-05-28
 categories: [Data Science, Machine Learning]
 format:
@@ -235,4 +236,3 @@ I use AI tools to assist in writing and drafting some of the content on this blo
         crossorigin="anonymous"
         async>
 </script>
-
