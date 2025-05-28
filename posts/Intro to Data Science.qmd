@@ -14,8 +14,6 @@ format:
     thebe: true
 ---
 
-# A Beginner's Guide to Data Science and Machine Learning
-
 Welcome to my first technical blog post on *Neural Notes*! If you're curious about what data science is and how machine learning fits into it, you're in the right place. Let's break it down from the ground up — with relatable examples and practical insights.
 
 In today’s digital age, data is being generated at an unprecedented rate—from social media interactions and online shopping to healthcare records and smart devices. Data science plays a crucial role in turning this vast sea of raw data into meaningful insights that help businesses, governments, and individuals make smarter decisions.
