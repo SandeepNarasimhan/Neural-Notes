@@ -7,7 +7,7 @@ format:
     toc: true
     toc-depth: 2
     theme: cosmo
-    code-tools: true  # Adds copy, expand, and launch tools
+    code-tools: false
     code-link: true
     code-fold: true
     thebe: true

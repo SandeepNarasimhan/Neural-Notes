@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs  # makes GitHub Pages integration easy
+  output-dir: docs
 
 website:
   title: "Neural Notes"
@@ -14,9 +14,9 @@ format:
   html:
     theme: cosmo
     toc: true
-    code-tools: true  # adds copy/run buttons
+    code-tools: false 
     code-overflow: wrap
-    include-after-body: giscus.html  # optional if you're using comments
+    include-after-body: giscus.html
     thebe: true
     thebe-options:
       binderOptions:
