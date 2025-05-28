@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Welcome to my blog!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Neural Notes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Neural Notes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Neural Notes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Neural Notes\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -39,56 +39,56 @@
     "href": "posts/Intro to Data Science.html",
     "title": "A Beginner’s Guide to Data Science and Machine Learning",
     "section": "",
-    "text": "Welcome to my first technical blog post on Neural Notes! If you’re curious about what data science is and how machine learning fits into it, you’re in the right place. Let’s break it down from the ground up — with relatable examples and practical insights.\n\n\n\nData science is the art and science of extracting insights from data using statistics, programming, and domain knowledge. It lies at the intersection of three main disciplines:\n\nMathematics & Statistics: to make sense of data patterns\nProgramming: to clean, manipulate, and visualize data\nDomain Knowledge: to contextualize the insights\n\nThink of a data scientist as a detective — finding clues (features), identifying suspects (hypotheses), and solving mysteries (business problems) using data.\n\n\n\n\nMachine Learning (ML) is a subset of data science. It involves training algorithms to learn from data and make predictions or decisions without being explicitly programmed for every scenario.\n\n“A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.”\n— Tom Mitchell, 1997\n\n\n\n\n\nMachine learning is generally categorized into three types:\n\n\nIn supervised learning, the algorithm is trained on a labeled dataset (i.e., the input data comes with corresponding output labels).\n\n\n\nSpam Detection: Emails labeled as spam or not spam\nHouse Price Prediction: Historical house data with prices\n\n\n\n\n\nLinear Regression\nDecision Trees\nSupport Vector Machines\nRandom Forests\nXGBoost\n\n\n\n\nA bank wants to predict loan defaults. It uses historical customer data (age, income, credit score) labeled with whether they defaulted. The model learns this mapping and predicts for new applicants.\n\n\n\n\n\nHere, the algorithm explores unlabeled data to find hidden patterns or groupings.\n\n\n\nCustomer Segmentation: Grouping users based on behavior\nAnomaly Detection: Finding unusual patterns in network traffic\n\n\n\n\n\nK-Means Clustering\nHierarchical Clustering\nPCA (Dimensionality Reduction)\n\n\n\n\nAn e-commerce platform uses clustering to group customers with similar purchasing behavior. It then tailors recommendations to each segment.\n\n\n\n\n\nThe algorithm learns by interacting with an environment, receiving rewards or penalties for actions.\n\n\n\nGame playing AI (e.g., AlphaGo)\nRobotics (self-learning movement)\nSelf-driving cars (learning to steer, accelerate, brake)\n\n\n\n\n\nAgent, Environment\nState, Action, Reward\nPolicy & Value functions\n\n\n\n\nAn autonomous drone learns to navigate a complex environment by trial and error, receiving rewards for reaching waypoints safely.\n\n\n\n\n\n\nMachine learning is a powerful tool — but it’s just one part of the data science workflow:\n\nUnderstanding the problem\nData collection and cleaning\nExploratory data analysis\nFeature engineering\nModel training (ML)\nEvaluation\nDeployment and monitoring\n\nEach step is crucial for turning raw data into actionable insights.\n\n\n\n\n\nThe Elements of Statistical Learning — Hastie, Tibshirani, Friedman\nMachine Learning Yearning — Andrew Ng\nQuarto Documentation\nGoogle’s Machine Learning Crash Course\n\n\n\n\n\nMachine learning might sound intimidating at first, but it’s really just pattern recognition at scale. With the right questions and clean data, it can solve real-world problems across finance, healthcare, retail, and beyond.\nThis blog is my way of learning out loud — if you have suggestions, corrections, or want to share ideas, feel free to reach out!"
+    "text": "Code\nx = 42\ny = 8\n\nf\"The answer is: {x + y}\"\n\n\n'The answer is: 50'"
   },
   {
     "objectID": "posts/Intro to Data Science.html#what-is-data-science",
     "href": "posts/Intro to Data Science.html#what-is-data-science",
     "title": "A Beginner’s Guide to Data Science and Machine Learning",
-    "section": "",
-    "text": "Data science is the art and science of extracting insights from data using statistics, programming, and domain knowledge. It lies at the intersection of three main disciplines:\n\nMathematics & Statistics: to make sense of data patterns\nProgramming: to clean, manipulate, and visualize data\nDomain Knowledge: to contextualize the insights\n\nThink of a data scientist as a detective — finding clues (features), identifying suspects (hypotheses), and solving mysteries (business problems) using data."
+    "section": "What is Data Science?",
+    "text": "What is Data Science?\nData science is the art and science of extracting insights from data using statistics, programming, and domain knowledge. It lies at the intersection of three main disciplines:\n\nMathematics & Statistics: to make sense of data patterns\nProgramming: to clean, manipulate, and visualize data\nDomain Knowledge: to contextualize the insights\n\nThink of a data scientist as a detective — finding clues (features), identifying suspects (hypotheses), and solving mysteries (business problems) using data.\nFor example: instead of writing rules to identify spam emails, you can train an ML model with thousands of examples of spam and non-spam emails — it learns patterns and starts identifying spam on its own."
   },
   {
     "objectID": "posts/Intro to Data Science.html#what-is-machine-learning",
     "href": "posts/Intro to Data Science.html#what-is-machine-learning",
     "title": "A Beginner’s Guide to Data Science and Machine Learning",
-    "section": "",
-    "text": "Machine Learning (ML) is a subset of data science. It involves training algorithms to learn from data and make predictions or decisions without being explicitly programmed for every scenario.\n\n“A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.”\n— Tom Mitchell, 1997"
+    "section": "What is Machine Learning?",
+    "text": "What is Machine Learning?\nMachine Learning (ML) is a subset of data science. It involves training algorithms to learn from data and make predictions or decisions without being explicitly programmed for every scenario.\n\n“A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.”\n— Tom Mitchell, 1997"
   },
   {
     "objectID": "posts/Intro to Data Science.html#types-of-machine-learning",
     "href": "posts/Intro to Data Science.html#types-of-machine-learning",
     "title": "A Beginner’s Guide to Data Science and Machine Learning",
-    "section": "",
-    "text": "Machine learning is generally categorized into three types:\n\n\nIn supervised learning, the algorithm is trained on a labeled dataset (i.e., the input data comes with corresponding output labels).\n\n\n\nSpam Detection: Emails labeled as spam or not spam\nHouse Price Prediction: Historical house data with prices\n\n\n\n\n\nLinear Regression\nDecision Trees\nSupport Vector Machines\nRandom Forests\nXGBoost\n\n\n\n\nA bank wants to predict loan defaults. It uses historical customer data (age, income, credit score) labeled with whether they defaulted. The model learns this mapping and predicts for new applicants.\n\n\n\n\n\nHere, the algorithm explores unlabeled data to find hidden patterns or groupings.\n\n\n\nCustomer Segmentation: Grouping users based on behavior\nAnomaly Detection: Finding unusual patterns in network traffic\n\n\n\n\n\nK-Means Clustering\nHierarchical Clustering\nPCA (Dimensionality Reduction)\n\n\n\n\nAn e-commerce platform uses clustering to group customers with similar purchasing behavior. It then tailors recommendations to each segment.\n\n\n\n\n\nThe algorithm learns by interacting with an environment, receiving rewards or penalties for actions.\n\n\n\nGame playing AI (e.g., AlphaGo)\nRobotics (self-learning movement)\nSelf-driving cars (learning to steer, accelerate, brake)\n\n\n\n\n\nAgent, Environment\nState, Action, Reward\nPolicy & Value functions\n\n\n\n\nAn autonomous drone learns to navigate a complex environment by trial and error, receiving rewards for reaching waypoints safely."
+    "section": "Types of Machine Learning",
+    "text": "Types of Machine Learning\nMachine learning is generally categorized into three types:\n\n1. Supervised Learning\nIn supervised learning, the algorithm is trained on a labeled dataset (i.e., the input data comes with corresponding output labels).\n\n\n\n\n\n\nDid You Know?\n\n\n\nSupervised learning is the most common form of machine learning, where the model learns from labeled data.\n\n\n\nExamples:\n\nSpam Detection: Emails labeled as spam or not spam\nHouse Price Prediction: Historical house data with prices\n\n\n\nCommon Algorithms:\n\nLinear Regression\nDecision Trees\nSupport Vector Machines\nRandom Forests\nXGBoost\n\n\n\n\n\n\n\nPro Tip!\n\n\n\nUse scikit-learn for fast prototyping of supervised ML models in Python.\n\n\n\n\nReal-world Use Case:\nA bank wants to predict loan defaults. It uses historical customer data (age, income, credit score) labeled with whether they defaulted. The model learns this mapping and predicts for new applicants.\n\n\n\n\n2. Unsupervised Learning\nHere, the algorithm explores unlabeled data to find hidden patterns or groupings.\n\nExamples:\n\nCustomer Segmentation: Grouping users based on behavior\nAnomaly Detection: Finding unusual patterns in network traffic\n\n\n\nCommon Algorithms:\n\nK-Means Clustering\nHierarchical Clustering\nPCA (Dimensionality Reduction)\n\n\n\nReal-world Use Case:\nAn e-commerce platform uses clustering to group customers with similar purchasing behavior. It then tailors recommendations to each segment.\n\n\n\n\n3. Reinforcement Learning\nThe algorithm learns by interacting with an environment, receiving rewards or penalties for actions.\n\nExamples:\n\nGame playing AI (e.g., AlphaGo)\nRobotics (self-learning movement)\nSelf-driving cars (learning to steer, accelerate, brake)\n\n\n\n\n\n\n\nCaution\n\n\n\nReinforcement learning can be powerful, but it’s computationally expensive and sensitive to hyperparameters. Use it only when suitable!\n\n\n\n\nConcepts:\n\nAgent, Environment\nState, Action, Reward\nPolicy & Value functions\n\n\n\nReal-world Use Case:\nAn autonomous drone learns to navigate a complex environment by trial and error, receiving rewards for reaching waypoints safely.\n\n\n\n\n\n\n\nWarning\n\n\n\nToo much time spent on model tuning with poor data will still give poor results. Garbage in, garbage out!"
   },
   {
     "objectID": "posts/Intro to Data Science.html#how-these-fit-into-data-science",
     "href": "posts/Intro to Data Science.html#how-these-fit-into-data-science",
     "title": "A Beginner’s Guide to Data Science and Machine Learning",
-    "section": "",
-    "text": "Machine learning is a powerful tool — but it’s just one part of the data science workflow:\n\nUnderstanding the problem\nData collection and cleaning\nExploratory data analysis\nFeature engineering\nModel training (ML)\nEvaluation\nDeployment and monitoring\n\nEach step is crucial for turning raw data into actionable insights."
+    "section": "How These Fit Into Data Science",
+    "text": "How These Fit Into Data Science\nMachine learning is a powerful tool — but it’s just one part of the data science workflow:\n\nUnderstanding the problem\nData collection and cleaning\nExploratory data analysis\nFeature engineering\nModel training (ML)\nEvaluation\nDeployment and monitoring\n\n\n\n\n\n\n\nCaution\n\n\n\nDon’t skip exploratory data analysis (EDA). You might miss out on data quirks, missing values, or hidden insights.\n\n\nEach step is crucial for turning raw data into actionable insights."
   },
   {
     "objectID": "posts/Intro to Data Science.html#further-reading-and-resources",
     "href": "posts/Intro to Data Science.html#further-reading-and-resources",
     "title": "A Beginner’s Guide to Data Science and Machine Learning",
-    "section": "",
-    "text": "The Elements of Statistical Learning — Hastie, Tibshirani, Friedman\nMachine Learning Yearning — Andrew Ng\nQuarto Documentation\nGoogle’s Machine Learning Crash Course"
+    "section": "Further Reading and Resources",
+    "text": "Further Reading and Resources\n\nThe Elements of Statistical Learning — Hastie, Tibshirani, Friedman\nMachine Learning Yearning — Andrew Ng\nQuarto Documentation\nGoogle’s Machine Learning Crash Course\nML Course Coursera"
   },
   {
     "objectID": "posts/Intro to Data Science.html#final-thoughts",
     "href": "posts/Intro to Data Science.html#final-thoughts",
     "title": "A Beginner’s Guide to Data Science and Machine Learning",
-    "section": "",
-    "text": "Machine learning might sound intimidating at first, but it’s really just pattern recognition at scale. With the right questions and clean data, it can solve real-world problems across finance, healthcare, retail, and beyond.\nThis blog is my way of learning out loud — if you have suggestions, corrections, or want to share ideas, feel free to reach out!"
+    "section": "Final Thoughts",
+    "text": "Final Thoughts\nMachine learning might sound intimidating at first, but it’s really just pattern recognition at scale. With the right questions and clean data, it can solve real-world problems across finance, healthcare, retail, and beyond.\nThis blog is my way of learning out loud — if you have suggestions, corrections, or want to share ideas, feel free to reach out!\n\n\nConnect with Me"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Welcome to Neural Notes",
     "section": "",
-    "text": "}\nHi, I’m a data scientist with a deep curiosity for both data and science. I started this blog as a personal learning space — a place to explore new ideas, share what I’m discovering, and grow along the way.\nNeural Notes isn’t just a collection of posts — it’s my digital lab notebook. I’m learning in public, and I’d love to learn with you.\nIf you’re reading any of my posts, feel free to share your thoughts, suggestions, or corrections. Your feedback helps me improve — and maybe together, we can all get a little better at this data game.\nLet’s explore, experiment, and evolve — one post at a time."
+    "text": "Banner\nHi, I’m a data scientist with a deep curiosity for both data and science. I started this blog as a personal learning space — a place to explore new ideas, share what I’m discovering, and grow along the way.\nNeural Notes isn’t just a collection of posts — it’s my digital lab notebook. I’m learning in public, and I’d love to learn with you.\nIf you’re reading any of my posts, feel free to share your thoughts, suggestions, or corrections. Your feedback helps me improve — and maybe together, we can all get a little better at this data game.\nLet’s explore, experiment, and evolve — one post at a time."
   },
   {
     "objectID": "about.html#about-me",
@@ -115,6 +115,34 @@
     "objectID": "about.html#comments",
     "href": "about.html#comments",
     "title": "Welcome to Neural Notes",
+    "section": "💬 Comments",
+    "text": "💬 Comments"
+  },
+  {
+    "objectID": "posts/Intro to Data Science.html#why-choose-data-science-or-machine-learning-as-a-career",
+    "href": "posts/Intro to Data Science.html#why-choose-data-science-or-machine-learning-as-a-career",
+    "title": "A Beginner’s Guide to Data Science and Machine Learning",
+    "section": "Why Choose Data Science or Machine Learning as a Career?",
+    "text": "Why Choose Data Science or Machine Learning as a Career?\n\nHigh Demand, Low Supply\nLucrative Salaries\nIntellectually Stimulating\nDiverse Backgrounds Welcome"
+  },
+  {
+    "objectID": "posts/Intro to Data Science.html#who-should-consider-this-path",
+    "href": "posts/Intro to Data Science.html#who-should-consider-this-path",
+    "title": "A Beginner’s Guide to Data Science and Machine Learning",
+    "section": "Who Should Consider This Path?",
+    "text": "Who Should Consider This Path?\n\nCurious Minds: You love asking “why” and digging into data.\nProblem Solvers: Enjoy finding patterns, optimizing systems, or solving puzzles.\nCreative Thinkers: ML isn’t only math — it’s about using data in innovative ways.\nCareer Changers: You’re in another domain but want a dynamic, future-facing role."
+  },
+  {
+    "objectID": "posts/Intro to Data Science.html#whats-the-future",
+    "href": "posts/Intro to Data Science.html#whats-the-future",
+    "title": "A Beginner’s Guide to Data Science and Machine Learning",
+    "section": "What’s the Future?",
+    "text": "What’s the Future?\n\nLLMs and Generative AI are revolutionizing everything — from content creation to legal assistance.\nFields like AI ethics, edge computing, healthcare AI, and green ML are just beginning."
+  },
+  {
+    "objectID": "posts/Intro to Data Science.html#comments",
+    "href": "posts/Intro to Data Science.html#comments",
+    "title": "A Beginner’s Guide to Data Science and Machine Learning",
     "section": "💬 Comments",
     "text": "💬 Comments"
   }

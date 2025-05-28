@@ -12,7 +12,27 @@ website:
 
 format:
   html:
-    theme: cosmo  # or journal, litera, etc.
+    theme: cosmo
     toc: true
+    code-tools: true  # adds copy/run buttons
+    code-overflow: wrap
+    include-after-body: giscus.html  # optional if you're using comments
+    thebe: true
+    thebe-options:
+      binderOptions:
+        repo: SandeepNarasimhan/Neural-Notes
+        urlpath: lab
+        interface: jupyterlab
+
+execute:
+  enabled: true
+  echo: true
+  eval: true
+  output: true
+  freeze: auto
+
+# Enable Thebe (code interactivity)
+resources:
+  - thebe
 
 
