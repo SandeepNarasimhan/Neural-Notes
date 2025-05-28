@@ -220,6 +220,9 @@ This blog is my way of learning out loud — if you have suggestions, correction
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sandeep%20Narasimhan-blue?logo=linkedin)](https://www.linkedin.com/in/sandeep-narasimhan-45769295)  
 - [![Email](https://img.shields.io/badge/Email-sandeepsanpande@gmail.com-red?logo=gmail)](mailto:sandeepsanpande@gmail.com)
 
+::: {.callout-caution title="Desclaimer"}
+I use AI tools to assist in writing and drafting some of the content on this blog. but all content is reviewed and edited by me for accuracy and clarity.
+:::
 
 ## 💬 Comments
 
