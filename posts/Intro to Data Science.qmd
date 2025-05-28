@@ -10,18 +10,8 @@ format:
     code-tools: true  # Adds copy, expand, and launch tools
     code-link: true
     code-fold: true
-    thebe: true  
-jupyter: python3
+    thebe: true
 ---
-
-```{python}
-#| echo: true
-#| output: true
-x = 42
-y = 8
-
-f"The answer is: {x + y}"
-```
 
 # A Beginner's Guide to Data Science and Machine Learning
 
