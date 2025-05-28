@@ -42,6 +42,6 @@ This blog is where I document what I’m learning and building, including:
 
 ### Connect with Me
 
-- [! [GitHub](https://img.shields.io/badge/GitHub-@SandeepNarasimhan-black?logo=github)](https://github.com/SandeepNarasimhan)
-- [! [LinkedIn](https://img.shields.io/badge/LinkedIn-Sandeep%20Narasimhan-blue?logo=linkedin)](https://www.linkedin.com/in/sandeep-narasimhan-45769295/)
-- [! [Email](https://img.shields.io/badge/Email-sandeepsanpande@gmail.com-red?logo=gmail)](sandeepsanpande@gmail.com)
+- [![GitHub](https://img.shields.io/badge/GitHub-@SandeepNarasimhan-black?logo=github)](https://github.com/SandeepNarasimhan)  
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sandeep%20Narasimhan-blue?logo=linkedin)](https://www.linkedin.com/in/sandeep-narasimhan-45769295)  
+- [![Email](https://img.shields.io/badge/Email-sandeepsanpande@gmail.com-red?logo=gmail)](mailto:sandeepsanpande@gmail.com)

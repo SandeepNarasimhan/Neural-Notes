@@ -32,7 +32,7 @@
     "href": "about.html#tools-i-often-use",
     "title": "About Neural Notes and Me",
     "section": "Tools I Often Use",
-    "text": "Tools I Often Use\n\nProgramming: Python, R, SQL\nML & AI: scikit-learn, XGBoost, LightGBM, TensorFlow, Keras, transformers\nVisualization: ggplot2, matplotlib, seaborn, Plotly\nPlatforms: Jupyter, RStudio, Streamlit, Shiny, MLflow, FastAPI\nHosting & Workflow: GitHub, GitHub Actions, Docker, Quarto\n\n\nConnect with Me\n\n! [GitHub](https://img.shields.io/badge/GitHub-@SandeepNarasimhan-black?logo=github)\n! [LinkedIn](https://img.shields.io/badge/LinkedIn-Sandeep%20Narasimhan-blue?logo=linkedin)\n! [Email](https://img.shields.io/badge/Email-sandeepsanpande@gmail.com-red?logo=gmail)"
+    "text": "Tools I Often Use\n\nProgramming: Python, R, SQL\nML & AI: scikit-learn, XGBoost, LightGBM, TensorFlow, Keras, transformers\nVisualization: ggplot2, matplotlib, seaborn, Plotly\nPlatforms: Jupyter, RStudio, Streamlit, Shiny, MLflow, FastAPI\nHosting & Workflow: GitHub, GitHub Actions, Docker, Quarto\n\n\nConnect with Me"
   },
   {
     "objectID": "index.html",
