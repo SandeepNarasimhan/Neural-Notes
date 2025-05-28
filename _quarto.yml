@@ -9,6 +9,7 @@ website:
     right:
       - about.qmd
       - index.qmd
+  google-analytics: "G-G93X3QVJC5"
 
 
 format:
