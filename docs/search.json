@@ -1,38 +1,38 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Blog Posts",
+    "section": "",
+    "text": "Welcome to my blog!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Neural Notes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Neural Notes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Welcome to Neural Notes",
     "section": "",
     "text": "}\nHi, I’m a data scientist with a deep curiosity for both data and science. I started this blog as a personal learning space — a place to explore new ideas, share what I’m discovering, and grow along the way.\nNeural Notes isn’t just a collection of posts — it’s my digital lab notebook. I’m learning in public, and I’d love to learn with you.\nIf you’re reading any of my posts, feel free to share your thoughts, suggestions, or corrections. Your feedback helps me improve — and maybe together, we can all get a little better at this data game.\nLet’s explore, experiment, and evolve — one post at a time."
   },
   {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
     "title": "Welcome to Neural Notes",
     "section": "About Me",
     "text": "About Me\nHi, I’m Sandeep, a data scientist from Mysore, India, with over 8 years of experience turning questions into insights and models into impact.\nI work across the stack of data science — from exploring raw data to building machine learning models, analyzing fraud, experimenting with LLMs, and writing code in both Python and R. I enjoy solving real-world problems, especially the messy ones.\nThis blog is my personal space to learn, reflect, and grow — not just as a professional, but as someone genuinely curious about data, systems, and how they shape our world.\nOutside of work, I like exploring music (especially metal 🎸), building side projects, and occasionally getting lost in thought over coffee and code.\nThanks for stopping by. I hope you find something here that sparks your own curiosity."
   },
   {
-    "objectID": "about.html#what-youll-find-here",
-    "href": "about.html#what-youll-find-here",
+    "objectID": "index.html#what-youll-find-here",
+    "href": "index.html#what-youll-find-here",
     "title": "Welcome to Neural Notes",
     "section": "What You’ll Find Here",
     "text": "What You’ll Find Here\nThis blog is where I document what I’m learning and building, including: - End-to-end machine learning projects - Data science tools and tips in Python & R - Thoughts on LLMs, model interpretability, and experimentation - Side projects, visuals, and experiments"
   },
   {
-    "objectID": "about.html#tools-i-often-use",
-    "href": "about.html#tools-i-often-use",
+    "objectID": "index.html#tools-i-often-use",
+    "href": "index.html#tools-i-often-use",
     "title": "Welcome to Neural Notes",
     "section": "Tools I Often Use",
     "text": "Tools I Often Use\n\nProgramming: Python, R, SQL\nML & AI: scikit-learn, XGBoost, LightGBM, TensorFlow, Keras, transformers\nVisualization: ggplot2, matplotlib, seaborn, Plotly\nPlatforms: Jupyter, RStudio, Streamlit, Shiny, MLflow, FastAPI\nHosting & Workflow: GitHub, GitHub Actions, Docker, Quarto\n\n\nConnect with Me"
-  },
-  {
-    "objectID": "about.html#comments",
-    "href": "about.html#comments",
-    "title": "Welcome to Neural Notes",
-    "section": "💬 Comments",
-    "text": "💬 Comments"
   },
   {
     "objectID": "posts/Intro to Data Science.html",
@@ -84,31 +84,38 @@
     "text": "Machine learning might sound intimidating at first, but it’s really just pattern recognition at scale. With the right questions and clean data, it can solve real-world problems across finance, healthcare, retail, and beyond.\nThis blog is my way of learning out loud — if you have suggestions, corrections, or want to share ideas, feel free to reach out!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "about.html",
+    "href": "about.html",
     "title": "Welcome to Neural Notes",
     "section": "",
     "text": "}\nHi, I’m a data scientist with a deep curiosity for both data and science. I started this blog as a personal learning space — a place to explore new ideas, share what I’m discovering, and grow along the way.\nNeural Notes isn’t just a collection of posts — it’s my digital lab notebook. I’m learning in public, and I’d love to learn with you.\nIf you’re reading any of my posts, feel free to share your thoughts, suggestions, or corrections. Your feedback helps me improve — and maybe together, we can all get a little better at this data game.\nLet’s explore, experiment, and evolve — one post at a time."
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
     "title": "Welcome to Neural Notes",
     "section": "About Me",
     "text": "About Me\nHi, I’m Sandeep, a data scientist from Mysore, India, with over 8 years of experience turning questions into insights and models into impact.\nI work across the stack of data science — from exploring raw data to building machine learning models, analyzing fraud, experimenting with LLMs, and writing code in both Python and R. I enjoy solving real-world problems, especially the messy ones.\nThis blog is my personal space to learn, reflect, and grow — not just as a professional, but as someone genuinely curious about data, systems, and how they shape our world.\nOutside of work, I like exploring music (especially metal 🎸), building side projects, and occasionally getting lost in thought over coffee and code.\nThanks for stopping by. I hope you find something here that sparks your own curiosity."
   },
   {
-    "objectID": "index.html#what-youll-find-here",
-    "href": "index.html#what-youll-find-here",
+    "objectID": "about.html#what-youll-find-here",
+    "href": "about.html#what-youll-find-here",
     "title": "Welcome to Neural Notes",
     "section": "What You’ll Find Here",
     "text": "What You’ll Find Here\nThis blog is where I document what I’m learning and building, including: - End-to-end machine learning projects - Data science tools and tips in Python & R - Thoughts on LLMs, model interpretability, and experimentation - Side projects, visuals, and experiments"
   },
   {
-    "objectID": "index.html#tools-i-often-use",
-    "href": "index.html#tools-i-often-use",
+    "objectID": "about.html#tools-i-often-use",
+    "href": "about.html#tools-i-often-use",
     "title": "Welcome to Neural Notes",
     "section": "Tools I Often Use",
     "text": "Tools I Often Use\n\nProgramming: Python, R, SQL\nML & AI: scikit-learn, XGBoost, LightGBM, TensorFlow, Keras, transformers\nVisualization: ggplot2, matplotlib, seaborn, Plotly\nPlatforms: Jupyter, RStudio, Streamlit, Shiny, MLflow, FastAPI\nHosting & Workflow: GitHub, GitHub Actions, Docker, Quarto\n\n\nConnect with Me"
+  },
+  {
+    "objectID": "about.html#comments",
+    "href": "about.html#comments",
+    "title": "Welcome to Neural Notes",
+    "section": "💬 Comments",
+    "text": "💬 Comments"
   }
 ]
