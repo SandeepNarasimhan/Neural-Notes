@@ -1,7 +1,7 @@
 Welcome to Neural Notes
 
 
-![Banner](images/banner.png){ height=100px }
+![Banner](images/banner1.png){ height=100px }
 
 Hi, I’m a data scientist with a deep curiosity for both data and science. I started this blog as a personal learning space — a place to explore new ideas, share what I’m discovering, and grow along the way.
 
