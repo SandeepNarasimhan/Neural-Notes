@@ -38,7 +38,7 @@ This blog is where I document what I’m learning and building, including:
 - ML & AI: scikit-learn, XGBoost, LightGBM, TensorFlow, Keras, transformers
 - Visualization: ggplot2, matplotlib, seaborn, Plotly
 - Platforms: Jupyter, RStudio, Streamlit, Shiny, MLflow, FastAPI
-- Hosting & Workflow: GitHub, GitHub Actions, Docker, Quarto
+
 
 ### Connect with Me
 

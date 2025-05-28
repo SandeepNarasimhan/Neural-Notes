@@ -8,7 +8,7 @@ website:
     logo: images/logo_BR.png
     right:
       - about.qmd
-      - posts.qmd
+      - index.qmd
 
 format:
   html:

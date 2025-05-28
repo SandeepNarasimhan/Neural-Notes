@@ -1,6 +1,10 @@
 ---
-title: "Welcome to Neural Notes"
+title: "Blog Posts"
+listing: true
 ---
+
+
+Welcome to my blog!
 
 <script type="text/javascript">
   thebeConfig = {

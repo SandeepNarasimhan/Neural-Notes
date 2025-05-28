@@ -6,5 +6,13 @@
       "/index.html",
       "/about.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/Intro to Data Science.html",
+      "/posts.html",
+      "/about.html"
+    ]
   }
 ]

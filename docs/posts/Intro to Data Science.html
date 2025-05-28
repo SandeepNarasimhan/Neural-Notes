@@ -21,6 +21,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -68,6 +103,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -97,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Welcome to Neural Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../posts.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Blog Posts</span></a>
   </li>  
 </ul>
@@ -123,9 +161,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#what-is-data-science" id="toc-what-is-data-science" class="nav-link" data-scroll-target="#what-is-data-science">What is Data Science?</a></li>
   <li><a href="#what-is-machine-learning" id="toc-what-is-machine-learning" class="nav-link" data-scroll-target="#what-is-machine-learning">What is Machine Learning?</a></li>
   <li><a href="#types-of-machine-learning" id="toc-types-of-machine-learning" class="nav-link" data-scroll-target="#types-of-machine-learning">Types of Machine Learning</a></li>
-  <li><a href="#how-these-fit-into-data-science" id="toc-how-these-fit-into-data-science" class="nav-link" data-scroll-target="#how-these-fit-into-data-science">How These Fit Into Data Science</a></li>
   <li><a href="#whats-the-future" id="toc-whats-the-future" class="nav-link" data-scroll-target="#whats-the-future">What’s the Future?</a></li>
   <li><a href="#further-reading-and-resources" id="toc-further-reading-and-resources" class="nav-link" data-scroll-target="#further-reading-and-resources">Further Reading and Resources</a></li>
+  <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">What’s Next?</a></li>
   <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
   <li><a href="#comments" id="toc-comments" class="nav-link" data-scroll-target="#comments">💬 Comments</a></li>
   </ul></li>
@@ -167,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="a-beginners-guide-to-data-science-and-machine-learning" class="level1">
 <h1>A Beginner’s Guide to Data Science and Machine Learning</h1>
 <p>Welcome to my first technical blog post on <em>Neural Notes</em>! If you’re curious about what data science is and how machine learning fits into it, you’re in the right place. Let’s break it down from the ground up — with relatable examples and practical insights.</p>
-<p>“Data is the new oil.” But unlike oil, it’s not the raw data, but the insights extracted from it — using Machine Learning — that hold real power.</p>
+<p>In today’s digital age, data is being generated at an unprecedented rate—from social media interactions and online shopping to healthcare records and smart devices. Data science plays a crucial role in turning this vast sea of raw data into meaningful insights that help businesses, governments, and individuals make smarter decisions.</p>
 <p><img src="images/intro_to_data_science.jpg" class="img-fluid" alt="image1">{ height=500px, width= 1000px }</p>
 <section id="why-choose-data-science-or-machine-learning-as-a-career" class="level2">
 <h2 class="anchored" data-anchor-id="why-choose-data-science-or-machine-learning-as-a-career">Why Choose Data Science or Machine Learning as a Career?</h2>
@@ -197,16 +235,85 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Domain Knowledge</strong>: to contextualize the insights</li>
 </ul>
 <p>Think of a data scientist as a detective — finding clues (features), identifying suspects (hypotheses), and solving mysteries (business problems) using data.</p>
+<p>Data science powers personalized recommendations on streaming platforms, fraud detection in banking, targeted marketing campaigns, and even advances in medical diagnosis. It helps us understand complex patterns, predict future trends, and optimize operations across almost every industry.</p>
+<p>Simply put, data science is the backbone of innovation and efficiency in our modern world. As more data continues to be created every second, the ability to analyze and interpret this data effectively is becoming one of the most valuable skills—and a key driver of progress and growth in society.</p>
 <p>For example: instead of writing rules to identify spam emails, you can train an ML model with thousands of examples of spam and non-spam emails — it learns patterns and starts identifying spam on its own.</p>
 <hr>
 </section>
 <section id="what-is-machine-learning" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-machine-learning">What is Machine Learning?</h2>
 <p><strong>Machine Learning (ML)</strong> is a subset of data science. It involves training algorithms to learn from data and make predictions or decisions without being explicitly programmed for every scenario.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>flowchart LR</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    A[Problem&lt;br&gt;Statement]</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    B[Data&lt;br&gt;Collection]</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    C[EDA and &lt;br&gt;Data Preprocessing]</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    D[Feature&lt;br&gt;Engineering]</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    E[Model&lt;br&gt;Training]</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    F[Model&lt;br&gt;Evaluation]</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    G{Training&lt;br&gt;Goal&lt;br&gt;Met?}</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    H[Hyperparameter&lt;br&gt;Tuning]</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    I[Model&lt;br&gt;Deployment]</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    J[Monitoring &amp;&lt;br&gt;Maintenance]</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    A --&gt; B --&gt; C --&gt; D --&gt; E --&gt; F --&gt; G</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    G -- Yes --&gt; I --&gt; J --&gt; B</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    G -- No --&gt; H --&gt; E</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    style G fill:#2ECC71,color:#fff,font-weight:bold</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    style A fill:#D5F5E3</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    style B fill:#D5F5E3</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    style C fill:#D5F5E3</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    style D fill:#D5F5E3</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    style E fill:#D5F5E3</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    style F fill:#D5F5E3</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    style H fill:#D5F5E3</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    style I fill:#D5F5E3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A[Problem&lt;br&gt;Statement]
+    B[Data&lt;br&gt;Collection]
+    C[EDA and &lt;br&gt;Data Preprocessing]
+    D[Feature&lt;br&gt;Engineering]
+    E[Model&lt;br&gt;Training]
+    F[Model&lt;br&gt;Evaluation]
+    G{Training&lt;br&gt;Goal&lt;br&gt;Met?}
+    H[Hyperparameter&lt;br&gt;Tuning]
+    I[Model&lt;br&gt;Deployment]
+    J[Monitoring &amp;&lt;br&gt;Maintenance]
+
+    A --&gt; B --&gt; C --&gt; D --&gt; E --&gt; F --&gt; G
+    G -- Yes --&gt; I --&gt; J --&gt; B
+    G -- No --&gt; H --&gt; E
+
+    style G fill:#2ECC71,color:#fff,font-weight:bold
+    style A fill:#D5F5E3
+    style B fill:#D5F5E3
+    style C fill:#D5F5E3
+    style D fill:#D5F5E3
+    style E fill:#D5F5E3
+    style F fill:#D5F5E3
+    style H fill:#D5F5E3
+    style I fill:#D5F5E3
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>Instead of writing fixed rules, ML algorithms find patterns in data and use those patterns to make predictions, classifications, or decisions. This ability to learn and adapt from experience makes ML incredibly powerful for solving complex problems where traditional programming falls short.</p>
 <blockquote class="blockquote">
 <p>“A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.”<br>
 — <em>Tom Mitchell, 1997</em></p>
 </blockquote>
+<p>Machine Learning powers many technologies we use daily — voice assistants, recommendation systems, spam filters, fraud detection, and self-driving cars. It allows computers to handle tasks that are too complex for traditional programming by learning directly from data.</p>
+<p>As data grows and computing power increases, ML’s role in driving automation, personalization, and intelligent decision-making will only become more significant.</p>
 <hr>
 </section>
 <section id="types-of-machine-learning" class="level2">
@@ -244,19 +351,6 @@ Did You Know?
 <li>Random Forests</li>
 <li>XGBoost</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Pro Tip!">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Pro Tip!
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Use <code>scikit-learn</code> for fast prototyping of supervised ML models in Python.</p>
-</div>
-</div>
 </section>
 <section id="real-world-use-case" class="level4">
 <h4 class="anchored" data-anchor-id="real-world-use-case">Real-world Use Case:</h4>
@@ -340,34 +434,6 @@ Warning
 </section>
 </section>
 </section>
-<section id="how-these-fit-into-data-science" class="level2">
-<h2 class="anchored" data-anchor-id="how-these-fit-into-data-science">How These Fit Into Data Science</h2>
-<p>Machine learning is a powerful tool — but it’s just one part of the data science workflow:</p>
-<ol type="1">
-<li><strong>Understanding the problem</strong></li>
-<li><strong>Data collection and cleaning</strong></li>
-<li><strong>Exploratory data analysis</strong></li>
-<li><strong>Feature engineering</strong></li>
-<li><strong>Model training (ML)</strong></li>
-<li><strong>Evaluation</strong></li>
-<li><strong>Deployment and monitoring</strong></li>
-</ol>
-<div class="callout callout-style-default callout-caution callout-titled" title="Caution">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Caution
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Don’t skip exploratory data analysis (EDA). You might miss out on data quirks, missing values, or hidden insights.</p>
-</div>
-</div>
-<p>Each step is crucial for turning raw data into actionable insights.</p>
-<hr>
-</section>
 <section id="whats-the-future" class="level2">
 <h2 class="anchored" data-anchor-id="whats-the-future">What’s the Future?</h2>
 <ul>
@@ -385,6 +451,21 @@ Caution
 <li><a href="https://www.coursera.org/specializations/machine-learning-introduction?">ML Course Coursera</a></li>
 </ul>
 <hr>
+</section>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s Next?</h2>
+<p>In the next post, we’ll dive into the Machine Learning workflow—a step-by-step guide on how data scientists turn raw data into real-world insights and predictions. From collecting data to deploying models, we’ll explore the entire journey in a beginner-friendly way.</p>
+<p>Here are some topics I’ll be covering soon:</p>
+<ul>
+<li>The Machine Learning Workflow Explained</li>
+<li>Exploratory Data Analysis (EDA) for Beginners</li>
+<li>Data Cleaning 101</li>
+<li>Feature Engineering Demystified</li>
+<li>Model Selection Simplified</li>
+<li>Evaluation Metrics Made Easy</li>
+</ul>
+<p>In these posts, I’ll also be sharing <strong>working examples</strong> and showing <strong>how to run code in Python or R</strong></p>
+<p>Stay tuned!</p>
 </section>
 <section id="final-thoughts" class="level2">
 <h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
