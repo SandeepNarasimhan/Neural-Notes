@@ -4,6 +4,8 @@ title: "About Neural Notes and Me"
 
 ## Welcome to Neural Notes
 
+![Banner](images/banner.png)
+
 Hi, I’m a data scientist with a deep curiosity for both data and science. I started this blog as a personal learning space — a place to explore new ideas, share what I’m discovering, and grow along the way.
 
 Neural Notes isn’t just a collection of posts — it’s my digital lab notebook. I'm learning in public, and I’d love to learn with you.
