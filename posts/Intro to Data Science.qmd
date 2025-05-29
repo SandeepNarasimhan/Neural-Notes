@@ -187,7 +187,6 @@ Too much time spent on model tuning with poor data will still give poor results.
 
 - [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) — Hastie, Tibshirani, Friedman
 - [Machine Learning Yearning](https://www.deeplearning.ai/machine-learning-yearning/) — Andrew Ng
-- [Quarto Documentation](https://quarto.org/)
 - [Google’s Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
 - [ML Course Coursera](https://www.coursera.org/specializations/machine-learning-introduction?)
 
