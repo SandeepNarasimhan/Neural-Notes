@@ -2,7 +2,7 @@
 title: "Why Virtual Environments Matter in Machine Learning Projects"
 author: "Sandeep N"
 date: 2025-05-29
-categories: [Data Science, Machine Learning]
+categories: [virtual-environments, python, Data Science, Machine Learning]
 format:
   html:
     toc: true
