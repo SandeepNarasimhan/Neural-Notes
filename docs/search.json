@@ -4,14 +4,77 @@
     "href": "posts.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Welcome to my blog!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\n\n\nMay 28, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nBlog Posts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Neural Notes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy Virtual Environments Matter in Machine Learning Projects\n\n\n\n\n\n\n\n\nMay 29, 2025\n\n\nSandeep N\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\n\n\nMay 28, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nBlog Posts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\n\n\nMay 29, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\n\n\nMay 29, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Neural Notes\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Welcome to my blog!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\n\n\nMay 28, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nBlog Posts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Neural Notes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy Virtual Environments Matter in Machine Learning Projects\n\n\n\n\n\n\n\n\nMay 29, 2025\n\n\nSandeep N\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\n\n\nMay 28, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nBlog Posts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\n\n\nMay 29, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\n\n\nMay 29, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Neural Notes\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/Venvs.html#introduction",
+    "href": "posts/Venvs.html#introduction",
+    "title": "Virtual Environments in ML Projects: Are They Worth the Effort?",
+    "section": "Introduction",
+    "text": "Introduction\nMany beginners (including me 🤘🏽🤦🏽‍♂️) in data science and machine learning often rush into building models without laying the foundation for a clean, maintainable, and scalable workflow. In this post, I’ll walk you through why setting up a virtual environment and organizing your ML project files isn’t just helpful it’s essential.\nWhether you’re a beginner or not, these practices will keep your projects healthy as they grow.\n{Source: ChatGPT, height=500px, width= 1000px}"
+  },
+  {
+    "objectID": "posts/Venvs.html#learning-the-hard-way",
+    "href": "posts/Venvs.html#learning-the-hard-way",
+    "title": "Virtual Environments in ML Projects: Are They Worth the Effort?",
+    "section": "Learning the Hard Way",
+    "text": "Learning the Hard Way\nI didn’t come from a traditional programming background. I didn’t learn about virtual environments or project organization in a classroom or bootcamp. For the longest time, I was just running pip install in the global Python environment and saving my files wherever they felt convenient.\nAnd guess what? Everything seemed fine… until it wasn’t.\nWhen I was working on a real-world machine learning project for a client, I had to:\n\nUse specific versions of packages (example: pandas and scikit-learn)\nDebug code that worked on my machine but failed on the client’s server.\nShare my work with another data scientist who couldn’t run any of my code.\n\nIt was chaotic.\nI was neck-deep in bugs, broken dependencies, and messy file structures. And there was no turning back, I had to fix it all in a short time.\nThat’s when I discovered virtual environments and structured project setups, not from a course, but from necessity. It wasn’t theory. It was survival.\n\n\n\n\n\n\nImportant\n\n\n\nSet up a virtual environment and organize your folders even if you’re just experimenting. it doesn’t seem urgent, until it is."
+  },
+  {
+    "objectID": "posts/Venvs.html#why-this-matters",
+    "href": "posts/Venvs.html#why-this-matters",
+    "title": "Virtual Environments in ML Projects: Are They Worth the Effort?",
+    "section": "Why This Matters",
+    "text": "Why This Matters\n1. Dependency Isolation\nHave you ever installed a library for one project, only to find that it breaks another one? That’s dependency hell. Virtual environments let you isolate dependencies for each project, so you can use different versions of the same library in different projects without conflicts.\n2. Reproducibility\nImagine trying to run a project six months later and nothing works. Why? Because the environment changed. Virtual environments + a requirements.txt file = perfect reproducibility.\n3. Cleaner Code and Collaboration\nStructured code is easier to debug, scale, or share with teammates."
+  },
+  {
+    "objectID": "posts/Venvs.html#setting-up-a-project-the-right-way",
+    "href": "posts/Venvs.html#setting-up-a-project-the-right-way",
+    "title": "Virtual Environments in ML Projects: Are They Worth the Effort?",
+    "section": "Setting Up a Project the Right Way",
+    "text": "Setting Up a Project the Right Way\nWhen starting a new project, it’s good practice to keep all your files organized in their own folder. Here’s how you can create a folder and move into it using your computer’s command line interface.\n\n1: Open your terminal or command prompt\n\nOn Windows, search for Command Prompt or PowerShell and open it.\nOn macOS, open the Terminal app.\nOn Linux, open your terminal application.\n\n\n\n2. Create a project folder\nmkdir ml_project\ncd ml_project\n\nmkdir ml_project Creates a new directory (folder) named ml_project in your current location. mkdir stands for make directory.\ncd ml_project Changes your current working directory to the newly created ml_project folder. cd stands for change directory.\n\n\n\n3. Create and Activate a Virtual Environment\npython3.12 -m venv venv\n\n\n\n\n\n\nNote\n\n\n\nRunning python3.12 -m venv venv does not install Python 3.12, it simply uses that version (if already installed) to create the virtual environment. You’ll need to install Python 3.12 manually on your system before using this command.\n\n\nLet’s break down what each part means:\npython3.12: This specifies the Python interpreter you want to use for creating the virtual environment. In this case, it’s explicitly telling your system to use Python version 3.12. If you just used python or python3, it would use your default Python installation.\n-m: This flag stands for “module.” It tells the Python interpreter to run a specified module as a script.\nvenv: This is the name of the module that Python provides for creating virtual environments.\nvenv (the second one): This is the name you are giving to your new virtual environment directory. a new directory named venv will be created in your current working directory. This directory will contain a copy of the Python interpreter, pip, and other necessary files for your isolated environment.\nthe command python3.12 -m venv venv does the following:\n\nIt uses the Python 3.12 interpreter.\nIt runs the venv module.\nIt creates a new directory named venv (the second venv in the command) in the current location. - This directory will house your isolated Python environment.\n\nAfter creating a Venv, you would typically activate the virtual environment\nsource venv/bin/activate  # macOS/Linux\n#venv\\Scripts\\activate     # Windows\n\n\n\n\n\n\nNote\n\n\n\nTo verify if a Python virtual environment (venv) is activated, check if your terminal prompt is prefixed with the environment’s name (e.g., (venv)). make sure that it is activated before installing any packages.\n\n\n\n\n4: Install Essential Packages\n#Single package at a time\npip install numpy\n\n# Multiple packages at once\npip install pandas matplotlib scikit-learn\npip: This stands for “Pip Installs Packages.” It is the standard package installer for Python.\n\npip manages Python packages that aren’t part of the standard library.\nYou should use pip whenever you need external Python packages for your projects.\nYou can install and uninstall packages with pip.\nYou use requirements files to manage projects’ dependencies.\n\n\n\n\n\n\n\nCaution\n\n\n\nTo install multiple Python packages like numpy, pandas, matplotlib, and scikit-learn, you simply list them separated by spaces, no commas needed. pip install pandas matplotlib scikit-learn\n\n\n\n\n5: Freeze Your Environment\nOnce you’ve installed all the necessary libraries and your application is working as expected, freezing the environment creates a snapshot of those dependencies. This is like a “checkpoint” for your project’s environment.\npip freeze &gt; requirements.txt\nEvery time you add a new package with pip install or remove one with pip uninstall, it’s a good practice to update your requirements.txt file to reflect the current state of your virtual environment.\n\n\n\n\n\n\nNote\n\n\n\nFor robust project setups, use Poetry instead of pip as it offers integrated dependency management and automatic lock files (poetry.lock). Poetry\n\n\n\n\n6. To replicate the environment later by you or others\npip install -r requirements.txt\nThis command automates the process of setting up a project’s Python dependencies. Instead of manually running pip install for each package, you can just run this one command, and pip will install everything your project needs, often with the precise versions required for compatibility. This is crucial for reproducible development environments."
+  },
+  {
+    "objectID": "posts/Venvs.html#why-project-structure-is-important",
+    "href": "posts/Venvs.html#why-project-structure-is-important",
+    "title": "Virtual Environments in ML Projects: Are They Worth the Effort?",
+    "section": "Why Project Structure is Important",
+    "text": "Why Project Structure is Important\nA clear and consistent project structure makes your code easier to understand, reuse, and maintain not just for others, but for yourself in the future. It helps separate different parts of your work like data, scripts, and notebooks, making your project more organized and scalable.\nYou don’t have to over-engineer, but a minimal structure with folders like src/, data/, and notebooks/ is a low effort way to stay organized.\n\n\n\n\n\n\nTip\n\n\n\nmkdir -p ml_project/{data,notebooks,src,models} #creates multiple directories at once\n\n\nNow, your ml_project should look something like this\nml_project/\n├── data/            # Raw or processed datasets\n├── notebooks/       # Jupyter notebooks for EDA\n├── src/             # Source code / scripts / modules\n├── models/          # Saved model files\n├── venv/            # Virtual environment\n├── requirements.txt # Package list\nSetting up a clear and organized project structure might feel like an extra step at the start, especially for small or experimental projects. However, it lays a strong foundation that helps you stay organized, makes your work easier to maintain, and prepares you for scaling up or collaborating with others."
+  },
+  {
+    "objectID": "posts/Venvs.html#conclusion",
+    "href": "posts/Venvs.html#conclusion",
+    "title": "Virtual Environments in ML Projects: Are They Worth the Effort?",
+    "section": "Conclusion",
+    "text": "Conclusion\nUsing a venv isn’t just a good practice it’s essential. It keeps your project dependencies isolated, prevents “dependency hell”, and ensures your code behaves consistently across machines. I’ve learned this the hard way as someone who didn’t come from a programming background, it wasn’t until I hit painful roadblocks in a real-world client project that I realized the value of proper environment management.\nWhile model accuracy often takes the spotlight, it’s only one part of the bigger picture. Reproducibility, collaboration, and maintainability are just as important especially when your work moves from personal projects to production or team settings."
+  },
+  {
+    "objectID": "posts/Venvs.html#whats-next-getting-started-with-git-github",
+    "href": "posts/Venvs.html#whats-next-getting-started-with-git-github",
+    "title": "Virtual Environments in ML Projects: Are They Worth the Effort?",
+    "section": "What’s Next: Getting Started with Git & GitHub",
+    "text": "What’s Next: Getting Started with Git & GitHub\nNow that we’ve seen how important it is to structure your ML projects and isolate your environments, the next natural step is version control — and that’s where Git and GitHub come in.\nIn my next blog post, I’ll talk about:\n\nWhat Git actually is and why it’s essential\nSetting up a GitHub repository for your project"
+  },
+  {
+    "objectID": "posts/Venvs.html#resources",
+    "href": "posts/Venvs.html#resources",
+    "title": "Virtual Environments in ML Projects: Are They Worth the Effort?",
+    "section": "Resources",
+    "text": "Resources\n\nPython Packaging User Guide — virtualenv tutorial\nReal Python - Python Virtual Environments\n\n\nConnect with Me\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesclaimer\n\n\n\nI use AI tools to assist in writing and drafting some of the content on this blog. but all content is reviewed and edited by me for accuracy and clarity."
+  },
+  {
+    "objectID": "posts/Venvs.html#comments",
+    "href": "posts/Venvs.html#comments",
+    "title": "Virtual Environments in ML Projects: Are They Worth the Effort?",
+    "section": "💬 Comments",
+    "text": "💬 Comments"
   },
   {
     "objectID": "posts/Intro to Data Science.html",
@@ -91,60 +154,11 @@
     "text": "💬 Comments"
   },
   {
-    "objectID": "posts/Venvs.html#introduction",
-    "href": "posts/Venvs.html#introduction",
-    "title": "Why Virtual Environments Matter in Machine Learning Projects",
-    "section": "Introduction",
-    "text": "Introduction\nMany beginners (including me 🤘🏽🤦🏽‍♂️) in data science and machine learning often rush into building models without laying the foundation for a clean, maintainable, and scalable workflow. In this post, I’ll walk you through why setting up a virtual environment and organizing your ML project files isn’t just helpful it’s essential.\nWhether you’re a beginner or not, these practices will keep your projects healthy as they grow.\n{Source: ChatGPT, height=500px, width= 1000px}"
-  },
-  {
-    "objectID": "posts/Venvs.html#learning-the-hard-way",
-    "href": "posts/Venvs.html#learning-the-hard-way",
-    "title": "Why Virtual Environments Matter in Machine Learning Projects",
-    "section": "Learning the Hard Way",
-    "text": "Learning the Hard Way\nI didn’t come from a traditional programming background. I didn’t learn about virtual environments or project organization in a classroom or bootcamp. For the longest time, I was just running pip install in the global Python environment and saving my files wherever they felt convenient.\nAnd guess what? Everything seemed fine… until it wasn’t.\nWhen I was working on a real-world machine learning project for a client, I had to:\n\nUse specific versions of packages (example: pandas and scikit-learn)\nDebug code that worked on my machine but failed on the client’s server.\nShare my work with another data scientist who couldn’t run any of my code.\n\nIt was chaotic.\nI was neck-deep in bugs, broken dependencies, and messy file structures. And there was no turning back, I had to fix it all in a short time.\nThat’s when I discovered virtual environments and structured project setups, not from a course, but from necessity. It wasn’t theory. It was survival.\n\n\n\n\n\n\nImportant\n\n\n\nSet up a virtual environment and organize your folders even if you’re just experimenting. it doesn’t seem urgent, until it is."
-  },
-  {
-    "objectID": "posts/Venvs.html#why-this-matters",
-    "href": "posts/Venvs.html#why-this-matters",
-    "title": "Why Virtual Environments Matter in Machine Learning Projects",
-    "section": "Why This Matters",
-    "text": "Why This Matters\n1. Dependency Isolation\nHave you ever installed a library for one project, only to find that it breaks another one? That’s dependency hell. Virtual environments let you isolate dependencies for each project, so you can use different versions of the same library in different projects without conflicts.\n2. Reproducibility\nImagine trying to run a project six months later and nothing works. Why? Because the environment changed. Virtual environments + a requirements.txt file = perfect reproducibility.\n3. Cleaner Code and Collaboration\nStructured code is easier to debug, scale, or share with teammates."
-  },
-  {
-    "objectID": "posts/Venvs.html#setting-up-a-project-the-right-way",
-    "href": "posts/Venvs.html#setting-up-a-project-the-right-way",
-    "title": "Why Virtual Environments Matter in Machine Learning Projects",
-    "section": "Setting Up a Project the Right Way",
-    "text": "Setting Up a Project the Right Way\nWhen starting a new project, it’s good practice to keep all your files organized in their own folder. Here’s how you can create a folder and move into it using your computer’s command line interface.\n\n1: Open your terminal or command prompt\n\nOn Windows, search for Command Prompt or PowerShell and open it.\nOn macOS, open the Terminal app.\nOn Linux, open your terminal application.\n\n\n\n2. Create a project folder\nmkdir ml_project\ncd ml_project\n\nmkdir ml_project Creates a new directory (folder) named ml_project in your current location. mkdir stands for make directory.\ncd ml_project Changes your current working directory to the newly created ml_project folder. cd stands for change directory.\n\n\n\n3. Create and Activate a Virtual Environment\npython3.12 -m venv venv\n\n\n\n\n\n\nNote\n\n\n\nRunning python3.12 -m venv venv does not install Python 3.12, it simply uses that version (if already installed) to create the virtual environment. You’ll need to install Python 3.12 manually on your system before using this command.\n\n\nLet’s break down what each part means:\npython3.12: This specifies the Python interpreter you want to use for creating the virtual environment. In this case, it’s explicitly telling your system to use Python version 3.12. If you just used python or python3, it would use your default Python installation.\n-m: This flag stands for “module.” It tells the Python interpreter to run a specified module as a script.\nvenv: This is the name of the module that Python provides for creating virtual environments.\nvenv (the second one): This is the name you are giving to your new virtual environment directory. a new directory named venv will be created in your current working directory. This directory will contain a copy of the Python interpreter, pip, and other necessary files for your isolated environment.\nthe command python3.12 -m venv venv does the following:\n\nIt uses the Python 3.12 interpreter.\nIt runs the venv module.\nIt creates a new directory named venv (the second venv in the command) in the current location. - This directory will house your isolated Python environment.\n\nAfter creating a Venv, you would typically activate the virtual environment\nsource venv/bin/activate  # macOS/Linux\n#venv\\Scripts\\activate     # Windows\n\n\n\n\n\n\nNote\n\n\n\nTo verify if a Python virtual environment (venv) is activated, check if your terminal prompt is prefixed with the environment’s name (e.g., (venv)). make sure that it is activated before installing any packages.\n\n\n\n\n4: Install Essential Packages\n#Single package at a time\npip install numpy\n\n# Multiple packages at once\npip install pandas matplotlib scikit-learn\npip: This stands for “Pip Installs Packages.” It is the standard package installer for Python.\n\npip manages Python packages that aren’t part of the standard library.\nYou should use pip whenever you need external Python packages for your projects.\nYou can install and uninstall packages with pip.\nYou use requirements files to manage projects’ dependencies.\n\n\n\n\n\n\n\nCaution\n\n\n\nTo install multiple Python packages like numpy, pandas, matplotlib, and scikit-learn, you simply list them separated by spaces, no commas needed. pip install pandas matplotlib scikit-learn\n\n\n\n\n5: Freeze Your Environment\nOnce you’ve installed all the necessary libraries and your application is working as expected, freezing the environment creates a snapshot of those dependencies. This is like a “checkpoint” for your project’s environment.\npip freeze &gt; requirements.txt\nEvery time you add a new package with pip install or remove one with pip uninstall, it’s a good practice to update your requirements.txt file to reflect the current state of your virtual environment.\n\n\n\n\n\n\nNote\n\n\n\nFor robust project setups, use Poetry instead of pip as it offers integrated dependency management and automatic lock files (poetry.lock). Poetry\n\n\n\n\n6. To replicate the environment later by you or others\npip install -r requirements.txt\nThis command automates the process of setting up a project’s Python dependencies. Instead of manually running pip install for each package, you can just run this one command, and pip will install everything your project needs, often with the precise versions required for compatibility. This is crucial for reproducible development environments."
-  },
-  {
-    "objectID": "posts/Venvs.html#conclusion",
-    "href": "posts/Venvs.html#conclusion",
-    "title": "Why Virtual Environments Matter in Machine Learning Projects",
-    "section": "Conclusion",
-    "text": "Conclusion\nUsing a venv isn’t just a good practice it’s essential. It keeps your project dependencies isolated, prevents “dependency hell”, and ensures your code behaves consistently across machines. I’ve learned this the hard way as someone who didn’t come from a programming background, it wasn’t until I hit painful roadblocks in a real-world client project that I realized the value of proper environment management.\nWhile model accuracy often takes the spotlight, it’s only one part of the bigger picture. Reproducibility, collaboration, and maintainability are just as important especially when your work moves from personal projects to production or team settings."
-  },
-  {
-    "objectID": "posts/Venvs.html#whats-next-getting-started-with-git-github",
-    "href": "posts/Venvs.html#whats-next-getting-started-with-git-github",
-    "title": "Why Virtual Environments Matter in Machine Learning Projects",
-    "section": "What’s Next: Getting Started with Git & GitHub",
-    "text": "What’s Next: Getting Started with Git & GitHub\nNow that we’ve seen how important it is to structure your ML projects and isolate your environments, the next natural step is version control — and that’s where Git and GitHub come in.\nIn my next blog post, I’ll talk about:\n\nWhat Git actually is and why it’s essential\nSetting up a GitHub repository for your project"
-  },
-  {
-    "objectID": "posts/Venvs.html#resources",
-    "href": "posts/Venvs.html#resources",
-    "title": "Why Virtual Environments Matter in Machine Learning Projects",
-    "section": "Resources",
-    "text": "Resources\n\nPython Packaging User Guide — virtualenv tutorial\nReal Python - Python Virtual Environments\n\n\nConnect with Me\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesclaimer\n\n\n\nI use AI tools to assist in writing and drafting some of the content on this blog. but all content is reviewed and edited by me for accuracy and clarity."
-  },
-  {
-    "objectID": "posts/Venvs.html#comments",
-    "href": "posts/Venvs.html#comments",
-    "title": "Why Virtual Environments Matter in Machine Learning Projects",
-    "section": "💬 Comments",
-    "text": "💬 Comments"
+    "objectID": "posts/git and github.html",
+    "href": "posts/git and github.html",
+    "title": "Version Control Made Easy: Introduction to Git and GitHub",
+    "section": "",
+    "text": "Warning\n\n\n\n🚧 Work in Progress!\nHey! I’m still working on this post. If you’re interested, keep an eye out for updates here — exciting stuff coming soon!\n\n\nAdd a .gitkeep or empty .txt file inside each folder so Git can track them even if they’re empty initially:\ntouch project_name/{data,notebooks,src,models,outputs,tests}/.gitkeep"
   },
   {
     "objectID": "about.html",

@@ -1,5 +1,5 @@
 ---
-title: "Why Virtual Environments Matter in Machine Learning Projects"
+title: "Virtual Environments in ML Projects: Are They Worth the Effort?"
 author: "Sandeep N"
 date: 2025-05-29
 categories: [virtual-environments, python, Data Science, Machine Learning]
@@ -159,6 +159,29 @@ pip install -r requirements.txt
 ```
 
 This command automates the process of setting up a project's Python dependencies. Instead of manually running pip install for each package, you can just run this one command, and pip will install everything your project needs, often with the precise versions required for compatibility. This is crucial for reproducible development environments.
+
+## Why Project Structure is Important
+
+A clear and consistent project structure makes your code easier to understand, reuse, and maintain not just for others, but for yourself in the future. It helps separate different parts of your work like data, scripts, and notebooks, making your project more organized and scalable.
+
+You don’t have to over-engineer, but a minimal structure with folders like src/, data/, and notebooks/ is a low effort way to stay organized.
+
+::: {.callout-tip title="Tip"}
+**mkdir -p ml_project/{data,notebooks,src,models}**  #creates multiple directories at once
+:::
+
+Now, your ml_project should look something like this
+
+```{.bash}
+ml_project/
+├── data/            # Raw or processed datasets
+├── notebooks/       # Jupyter notebooks for EDA
+├── src/             # Source code / scripts / modules
+├── models/          # Saved model files
+├── venv/            # Virtual environment
+├── requirements.txt # Package list
+```
+Setting up a clear and organized project structure might feel like an extra step at the start, especially for small or experimental projects. However, it lays a strong foundation that helps you stay organized, makes your work easier to maintain, and prepares you for scaling up or collaborating with others.
 
 ## Conclusion
 

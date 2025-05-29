@@ -1,0 +1,35 @@
+
+---
+title: "Version Control Made Easy: Introduction to Git and GitHub"
+author: "Sandeep N"
+date: 2025-05-29
+categories: [virtual-environments, python, Data Science, Machine Learning]
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: cosmo
+    code-tools: false
+    code-link: true
+    code-fold: true
+    thebe: true
+jupyter: python3
+---
+
+[![Tweet](https://img.shields.io/badge/Tweet-Share_on_Twitter-1DA1F2?logo=twitter)](https://twitter.com/intent/tweet?text=Check%20out%20this%20post!&url=https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html)
+[![LinkedIn](https://img.shields.io/badge/Share-LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html)
+[![Email](https://img.shields.io/badge/Email-Share_via_Email-red?logo=gmail)](mailto:?subject=Interesting%20Post&body=Check%20out%20this%20blog%20post%3A%20https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Share-25D366?logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?text=Check%20out%20this%20blog%20post%3A%20https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html)
+[![Reddit](https://img.shields.io/badge/Reddit-Share-orange?logo=reddit)](https://www.reddit.com/submit?url=https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html&title=Virtual%20Environments)
+
+
+::: {.callout-warning icon="🛠️" .bg-yellow-100 .border-yellow-500 .text-yellow-800}
+**🚧 Work in Progress!**  
+**Hey! I’m still working on this post. If you’re interested, keep an eye out for updates here — exciting stuff coming soon!**
+:::
+
+Add a .gitkeep or empty .txt file inside each folder so Git can track them even if they’re empty initially:
+
+```{.bash}
+touch project_name/{data,notebooks,src,models,outputs,tests}/.gitkeep
+```
