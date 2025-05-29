@@ -2,21 +2,17 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/Intro to Data Science.html",
-      "/index.html",
       "/posts/git and github.html",
       "/posts/Venvs.html",
-      "/about.html"
+      "/posts/Intro to Data Science.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/posts/Intro to Data Science.html",
-      "/posts.html",
       "/posts/git and github.html",
       "/posts/Venvs.html",
-      "/about.html"
+      "/posts/Intro to Data Science.html"
     ]
   }
 ]

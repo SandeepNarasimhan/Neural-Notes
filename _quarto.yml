@@ -23,6 +23,8 @@ website:
     left: |
       ![](images/logo_BR.png){width=100px}  
       "2025 **Neural Notes**"
+    right:
+      "🤘🏽☹️🤘🏽"
 
 
 collections:
@@ -34,7 +36,7 @@ format:
   html:
     theme:
       light: [cosmo, styles.scss]
-      dark: [cosmo, styles-dark.scss]
+      dark: [darkly, styles-dark.scss]
     mainfont: "Inter"
     code-copy: true
     toc: true

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog Posts – Neural Notes</title>
+<title>posts – Neural Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-4b56d3d916c3b091b91c7f09aa04b2e7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-134a82f2ca7c8704bb8ea37845c1e476.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-e5342e04935a999f048a1439b2af5412.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-4b56d3d916c3b091b91c7f09aa04b2e7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -83,9 +83,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -309,7 +309,7 @@ window.Quarto = {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -348,33 +348,17 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RGF0YSUyMFNjaWVuY2U=">Data Science <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R2l0">Git <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2l0aHVi">Github <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cHl0aG9u">python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VmVyc2lvbiUyMENvbnRyb2w=">Version Control <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmlydHVhbC1lbnZpcm9ubWVudHM=">virtual-environments <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Blog Posts</h1>
-</div>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <p>Welcome to my blog!</p>
@@ -382,120 +366,86 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="RGF0YSUyMFNjaWVuY2UlMkNNYWNoaW5lJTIwTGVhcm5pbmc=" data-listing-date-sort="1748370600000" data-listing-file-modified-sort="1748515132909" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1258">
-<div class="thumbnail"><a href="./posts/Intro to Data Science.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/images/intro_to_data_science.jpg" alt="image1"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Intro to Data Science.html" class="no-external">A Beginner’s Guide to Data Science and Machine Learning</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/Intro to Data Science.html" class="no-external">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="VmVyc2lvbiUyMENvbnRyb2wlMkNweXRob24lMkNHaXQlMkNHaXRodWI=" data-listing-date-sort="1748543400000" data-listing-file-modified-sort="1748517333607" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+<a href="./posts/git and github.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/images/git.png" alt="git" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Version Control Made Easy: Introduction to Git and GitHub
+</h5>
+<div class="card-text listing-description delink">
     
-</a></div>
 </div>
-<div class="metadata">
-<a href="./posts/Intro to Data Science.html" class="no-external">
-<div class="listing-date">
-May 28, 2025
-</div>
-<div class="listing-author">
-Sandeep N
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1748515132908" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
-<div class="thumbnail"><a href="./index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./index.html" class="no-external">Blog Posts</a>
-</h3>
-<div class="delink listing-description"><a href="./index.html" class="no-external">
-Welcome to my blog!
-</a></div>
-</div>
-<div class="metadata">
-<a href="./index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="VmVyc2lvbiUyMENvbnRyb2wlMkNweXRob24lMkNHaXQlMkNHaXRodWI=" data-listing-date-sort="1748543400000" data-listing-file-modified-sort="1748515385045" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
-<div class="thumbnail"><a href="./posts/git and github.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/images/git.png" alt="git"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/git and github.html" class="no-external">Version Control Made Easy: Introduction to Git and GitHub</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/git and github.html" class="no-external">
-    
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/git and github.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 May 30, 2025
 </div>
-<div class="listing-author">
-Sandeep N
-</div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="dmlydHVhbC1lbnZpcm9ubWVudHMlMkNweXRob24lMkNEYXRhJTIwU2NpZW5jZSUyQ01hY2hpbmUlMjBMZWFybmluZw==" data-listing-date-sort="1748457000000" data-listing-file-modified-sort="1748515132910" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1471">
-<div class="thumbnail"><a href="./posts/Venvs.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/images/Venvs.png" alt="Source: ChatGPT"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Venvs.html" class="no-external">Virtual Environments in ML Projects: Are They Worth the Effort?</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/Venvs.html" class="no-external">
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="dmlydHVhbC1lbnZpcm9ubWVudHMlMkNweXRob24lMkNEYXRhJTIwU2NpZW5jZSUyQ01hY2hpbmUlMjBMZWFybmluZw==" data-listing-date-sort="1748457000000" data-listing-file-modified-sort="1748517278118" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1471">
+<a href="./posts/Venvs.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/images/Venvs.png" alt="Source: ChatGPT" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Virtual Environments in ML Projects: Are They Worth the Effort?
+</h5>
+<div class="card-text listing-description delink">
     
-</a></div>
 </div>
-<div class="metadata">
-<a href="./posts/Venvs.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 May 29, 2025
 </div>
-<div class="listing-author">
-Sandeep N
-</div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-file-modified-sort="1748517136670" data-listing-reading-time-sort="2" data-listing-word-count-sort="369">
-<div class="thumbnail"><a href="./about.html" class="no-external">
-
-<p class="card-img-top"><img src="images/logo_BR.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./about.html" class="no-external">Welcome to Neural Notes</a>
-</h3>
-<div class="delink listing-description"><a href="./about.html" class="no-external">
-Hi, I’m a data scientist with a deep curiosity for both data and science. I started this blog as a personal learning space — a place to explore new ideas, share what I’m…
-</a></div>
+</div></a>
 </div>
-<div class="metadata">
-<a href="./about.html" class="no-external">
-</a>
+<div class="g-col-1" data-index="2" data-categories="RGF0YSUyMFNjaWVuY2UlMkNNYWNoaW5lJTIwTGVhcm5pbmc=" data-listing-date-sort="1748370600000" data-listing-file-modified-sort="1748517402632" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1258">
+<a href="./posts/Intro to Data Science.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/images/intro_to_data_science.jpg" alt="image1" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A Beginner’s Guide to Data Science and Machine Learning
+</h5>
+<div class="card-text listing-description delink">
+    
 </div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 28, 2025
+</div>
+</div>
+</div>
+</div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -923,8 +873,8 @@ Hi, I’m a data scientist with a deep curiosity for both data and science. I st
       &nbsp;
     <div class="toc-actions"><ul><li><a href="https://github.com/SandeepNarasimhan/Neural-Notes/edit/main/posts.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SandeepNarasimhan/Neural-Notes/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
-      &nbsp;
-    </div>
+<p>🤘🏽☹️🤘🏽</p>
+</div>
   </div>
 </footer>
 
