@@ -14,11 +14,17 @@ format:
     thebe: true
 ---
 
-Welcome to my first technical blog post on *Neural Notes*! If you're curious about what data science is and how machine learning fits into it, you're in the right place. Let's break it down from the ground up — with relatable examples and practical insights.
+[![Tweet](https://img.shields.io/badge/Tweet-Share_on_Twitter-1DA1F2?logo=twitter)](https://twitter.com/intent/tweet?text=Check%20out%20this%20post!&url=https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FIntro%2520to%2520Data%2520Science.html)
+[![LinkedIn](https://img.shields.io/badge/Share-LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FIntro%2520to%2520Data%2520Science.html)
+[![Email](https://img.shields.io/badge/Email-Share_via_Email-red?logo=gmail)](mailto:?subject=Interesting%20Post&body=Check%20out%20this%20blog%20post%3A%20https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FIntro%2520to%2520Data%2520Science.html)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Share-25D366?logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?text=Check%20out%20this%20blog%20post%3A%20https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FIntro%2520to%2520Data%2520Science.html)
+[![Reddit](https://img.shields.io/badge/Reddit-Share-orange?logo=reddit)](https://www.reddit.com/submit?url=https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FIntro%2520to%2520Data%2520Science.html&title=Intro%20to%20Data%20Science)
 
-In today’s digital age, data is being generated at an unprecedented rate—from social media interactions and online shopping to healthcare records and smart devices. Data science plays a crucial role in turning this vast sea of raw data into meaningful insights that help businesses, governments, and individuals make smarter decisions.
+Welcome to my first technical blog post on *Neural Notes*! If you're curious about what data science is and how machine learning fits into it, you're in the right place. Let's break it down from the ground up with relatable examples and practical insights.
 
-![image1](images/intro_to_data_science.jpg){ height=500px, width= 1000px }
+In today’s digital age, data is being generated at an unprecedented rate from social media interactions and online shopping to healthcare records and smart devices. Data science plays a crucial role in turning this vast sea of raw data into meaningful insights that help businesses, governments, and individuals make smarter decisions.
+
+![image1](images/intro_to_data_science.jpg){**Source: ChatGPT**, height=500px, width= 1000px }
 
 ## Why Choose Data Science or Machine Learning as a Career?
 
@@ -31,7 +37,7 @@ In today’s digital age, data is being generated at an unprecedented rate—fro
 
 - Curious Minds: You love asking "why" and digging into data.
 - Problem Solvers: Enjoy finding patterns, optimizing systems, or solving puzzles.
-- Creative Thinkers: ML isn't only math — it's about using data in innovative ways.
+- Creative Thinkers: ML isn't only math it's about using data in innovative ways.
 - Career Changers: You're in another domain but want a dynamic, future-facing role.
 
 ---
@@ -44,13 +50,13 @@ In today’s digital age, data is being generated at an unprecedented rate—fro
 - **Programming**: to clean, manipulate, and visualize data
 - **Domain Knowledge**: to contextualize the insights
 
-Think of a data scientist as a detective — finding clues (features), identifying suspects (hypotheses), and solving mysteries (business problems) using data.
+Think of a data scientist as a detective finding clues (features), identifying suspects (hypotheses), and solving mysteries (business problems) using data.
 
 Data science powers personalized recommendations on streaming platforms, fraud detection in banking, targeted marketing campaigns, and even advances in medical diagnosis. It helps us understand complex patterns, predict future trends, and optimize operations across almost every industry.
 
-Simply put, data science is the backbone of innovation and efficiency in our modern world. As more data continues to be created every second, the ability to analyze and interpret this data effectively is becoming one of the most valuable skills—and a key driver of progress and growth in society.
+Simply put, data science is the backbone of innovation and efficiency in our modern world. As more data continues to be created every second, the ability to analyze and interpret this data effectively is becoming one of the most valuable skills and a key driver of progress and growth in society.
 
-For example: instead of writing rules to identify spam emails, you can train an ML model with thousands of examples of spam and non-spam emails — it learns patterns and starts identifying spam on its own.
+For example: instead of writing rules to identify spam emails, you can train an ML model with thousands of examples of spam and nonspam emails it learns patterns and starts identifying spam on its own.
 
 ---
 
@@ -92,7 +98,7 @@ Instead of writing fixed rules, ML algorithms find patterns in data and use thos
 > "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E."  
 > — *Tom Mitchell, 1997*
 
-Machine Learning powers many technologies we use daily — voice assistants, recommendation systems, spam filters, fraud detection, and self-driving cars. It allows computers to handle tasks that are too complex for traditional programming by learning directly from data.
+Machine Learning powers many technologies we use daily voice assistants, recommendation systems, spam filters, fraud detection, and self driving cars. It allows computers to handle tasks that are too complex for traditional programming by learning directly from data.
 
 As data grows and computing power increases, ML’s role in driving automation, personalization, and intelligent decision-making will only become more significant.
 
@@ -135,12 +141,12 @@ Here, the algorithm explores **unlabeled data** to find hidden patterns or group
 - **Anomaly Detection**: Finding unusual patterns in network traffic
 
 ####  Common Algorithms:
-- K-Means Clustering
+- KMeans Clustering
 - Hierarchical Clustering
 - PCA (Dimensionality Reduction)
 
 #### Real-world Use Case:
-An e-commerce platform uses clustering to group customers with similar purchasing behavior. It then tailors recommendations to each segment.
+An ecommerce platform uses clustering to group customers with similar purchasing behavior. It then tailors recommendations to each segment.
 
 ---
 
@@ -150,8 +156,8 @@ The algorithm **learns by interacting** with an environment, receiving rewards o
 
 ####  Examples:
 - Game playing AI (e.g., AlphaGo)
-- Robotics (self-learning movement)
-- Self-driving cars (learning to steer, accelerate, brake)
+- Robotics (self learning movement)
+- Self driving cars (learning to steer, accelerate, brake)
 
 ::: {.callout-caution title="Caution"}
 Reinforcement learning can be powerful, but it's computationally expensive and sensitive to hyperparameters. Use it only when suitable!
@@ -174,7 +180,7 @@ Too much time spent on model tuning with poor data will still give poor results.
 
 ## What’s the Future?
 
-- LLMs and Generative AI are revolutionizing everything — from content creation to legal assistance.
+- LLMs and Generative AI are revolutionizing everything from content creation to legal assistance.
 - Fields like AI ethics, edge computing, healthcare AI, and green ML are just beginning.
 
 ##  Further Reading and Resources
@@ -189,7 +195,7 @@ Too much time spent on model tuning with poor data will still give poor results.
 
 ## What’s Next?
 
-In the next post, we’ll dive into the Machine Learning workflow—a step-by-step guide on how data scientists turn raw data into real-world insights and predictions. From collecting data to deploying models, we’ll explore the entire journey in a beginner-friendly way.
+In the next post, we’ll dive into the Machine Learning workflow a step by step guide on how data scientists turn raw data into real world insights and predictions. From collecting data to deploying models, we’ll explore the entire journey in a beginner friendly way.
 
 Here are some topics I’ll be covering soon:
 
@@ -207,9 +213,9 @@ Stay tuned!
 
 ## Final Thoughts
 
-Machine learning might sound intimidating at first, but it's really just pattern recognition at scale. With the right questions and clean data, it can solve real-world problems across finance, healthcare, retail, and beyond.
+Machine learning might sound intimidating at first, but it's really just pattern recognition at scale. With the right questions and clean data, it can solve real world problems across finance, healthcare, retail, and beyond.
 
-This blog is my way of learning out loud — if you have suggestions, corrections, or want to share ideas, feel free to reach out!
+This blog is my way of learning out loud if you have suggestions, corrections, or want to share ideas, feel free to reach out!
 
 ---
 

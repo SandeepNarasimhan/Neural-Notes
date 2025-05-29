@@ -4,7 +4,8 @@
     "items": [
       "/posts/Intro to Data Science.html",
       "/index.html",
-      "/about.html"
+      "/about.html",
+      "/posts/Venvs.html"
     ]
   },
   {
@@ -12,7 +13,8 @@
     "items": [
       "/posts/Intro to Data Science.html",
       "/posts.html",
-      "/about.html"
+      "/about.html",
+      "/posts/Venvs.html"
     ]
   }
 ]
