@@ -278,6 +278,19 @@ Structured code is easier to debug, scale, or share with teammates.</p>
 <section id="create-and-activate-a-virtual-environment" class="level3">
 <h3 class="anchored" data-anchor-id="create-and-activate-a-virtual-environment">3. Create and Activate a Virtual Environment</h3>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3.12</span> <span class="at">-m</span> venv venv</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-style-default callout-note callout-titled" title="Note">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note: Running <strong>python3.12 -m venv venv</strong> does not install Python 3.12, it simply uses that version (if already installed) to create the virtual environment. You’ll need to install Python 3.12 manually on your system before using this command.</p>
+</div>
+</div>
 <p>Let’s break down what each part means:</p>
 <p>python3.12: This specifies the Python interpreter you want to use for creating the virtual environment. In this case, it’s explicitly telling your system to use Python version 3.12. If you just used python or python3, it would use your default Python installation.</p>
 <p>-m: This flag stands for “module.” It tells the Python interpreter to run a specified module as a script.</p>
@@ -366,7 +379,7 @@ Note
 </section>
 <section id="whats-next-getting-started-with-git-github" class="level2">
 <h2 class="anchored" data-anchor-id="whats-next-getting-started-with-git-github">What’s Next: Getting Started with Git &amp; GitHub</h2>
-<p>Now that you’ve seen how important it is to structure your ML projects and isolate your environments, the next natural step is version control — and that’s where Git and GitHub come in.</p>
+<p>Now that we’ve seen how important it is to structure your ML projects and isolate your environments, the next natural step is version control — and that’s where Git and GitHub come in.</p>
 <p>In my next blog post, I’ll talk about:</p>
 <ul>
 <li>What Git actually is and why it’s essential</li>

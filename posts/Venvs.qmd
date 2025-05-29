@@ -90,6 +90,10 @@ cd stands for change directory.
 ```{.bash}
 python3.12 -m venv venv
 ```
+::: {.callout-note title="Note"}
+Note: Running **python3.12 -m venv venv** does not install Python 3.12, it simply uses that version (if already installed) to create the virtual environment. You’ll need to install Python 3.12 manually on your system before using this command.
+:::
+
 Let's break down what each part means:
 
 python3.12: This specifies the Python interpreter you want to use for creating the virtual environment. In this case, it's explicitly telling your system to use Python version 3.12. If you just used python or python3, it would use your default Python installation.
@@ -165,7 +169,7 @@ While model accuracy often takes the spotlight, it’s only one part of the bigg
 
 ## What’s Next: Getting Started with Git & GitHub
 
-Now that you’ve seen how important it is to structure your ML projects and isolate your environments, the next natural step is version control — and that’s where Git and GitHub come in.
+Now that we’ve seen how important it is to structure your ML projects and isolate your environments, the next natural step is version control — and that’s where Git and GitHub come in.
 
 In my next blog post, I’ll talk about:
 
