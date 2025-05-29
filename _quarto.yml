@@ -11,6 +11,10 @@ website:
       - index.qmd
   google-analytics: "G-G93X3QVJC5"
 
+collections:
+  posts:
+    type: blog
+    sort: date desc
 
 format:
   html:
