@@ -3,15 +3,6 @@ title: "Version Control Made Easy: Introduction to Git and GitHub"
 author: "Sandeep N"
 date: 2025-05-30
 categories: [Version Control, python, Git, Github]
-format:
-  html:
-    toc: true
-    toc-depth: 2
-    theme: cosmo
-    code-tools: false
-    code-link: true
-    code-fold: true
-    thebe: true
 jupyter: python3
 ---
 
@@ -26,6 +17,8 @@ jupyter: python3
 **🚧 Work in Progress!**  
 **Hey! I’m still working on this post. If you’re interested, keep an eye out for updates here — exciting stuff coming soon!**
 :::
+
+![git](images/git.png){**Source: Google Gemini**, height=500px, width= 1000px }
 
 Add a .gitkeep or empty .txt file inside each folder so Git can track them even if they’re empty initially:
 

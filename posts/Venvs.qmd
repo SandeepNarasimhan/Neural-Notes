@@ -3,15 +3,6 @@ title: "Virtual Environments in ML Projects: Are They Worth the Effort?"
 author: "Sandeep N"
 date: 2025-05-29
 categories: [virtual-environments, python, Data Science, Machine Learning]
-format:
-  html:
-    toc: true
-    toc-depth: 2
-    theme: cosmo
-    code-tools: false
-    code-link: true
-    code-fold: true
-    thebe: true
 jupyter: python3
 ---
 

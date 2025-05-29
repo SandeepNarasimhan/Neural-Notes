@@ -4,14 +4,14 @@
     "href": "posts.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Welcome to my blog!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\n\n\nMay 28, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nBlog Posts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\n\n\nMay 29, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\n\n\nMay 29, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Neural Notes\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\n\n\nMay 28, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nBlog Posts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\n\n\nMay 30, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\n\n\nMay 29, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Neural Notes\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Welcome to my blog!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\n\n\nMay 28, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nBlog Posts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\n\n\nMay 29, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\n\n\nMay 29, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Neural Notes\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\n\n\nMay 28, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nBlog Posts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\n\n\nMay 30, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\n\n\nMay 29, 2025\n\n\nSandeep N\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Neural Notes\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Venvs.html#introduction",
@@ -158,7 +158,7 @@
     "href": "posts/git and github.html",
     "title": "Version Control Made Easy: Introduction to Git and GitHub",
     "section": "",
-    "text": "Warning\n\n\n\n🚧 Work in Progress!\nHey! I’m still working on this post. If you’re interested, keep an eye out for updates here — exciting stuff coming soon!\n\n\nAdd a .gitkeep or empty .txt file inside each folder so Git can track them even if they’re empty initially:\ntouch project_name/{data,notebooks,src,models,outputs,tests}/.gitkeep"
+    "text": "Warning\n\n\n\n🚧 Work in Progress!\nHey! I’m still working on this post. If you’re interested, keep an eye out for updates here — exciting stuff coming soon!\n\n\n{Source: Google Gemini, height=500px, width= 1000px }\nAdd a .gitkeep or empty .txt file inside each folder so Git can track them even if they’re empty initially:\ntouch project_name/{data,notebooks,src,models,outputs,tests}/.gitkeep"
   },
   {
     "objectID": "about.html",

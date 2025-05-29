@@ -1,15 +1,29 @@
 project:
   type: website
   output-dir: docs
+  resources:
+  - "images/logo_BR.png"
 
 website:
   title: "Neural Notes"
   navbar:
     logo: images/logo_BR.png
     right:
-      - about.qmd
+      - text: About
+        href: about.qmd
       - index.qmd
+      - icon: github
+        href: https://github.com/SandeepNarasimhan/Neural-Notes
+        aria-label: GitHub repo
   google-analytics: "G-G93X3QVJC5"
+  repo-url: https://github.com/SandeepNarasimhan/Neural-Notes
+  repo-actions: [edit, issue]
+
+  page-footer:
+    left: |
+      ![](images/logo_BR.png){width=100px}  
+      "2025 **Neural Notes**"
+
 
 collections:
   posts:
@@ -18,11 +32,14 @@ collections:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cosmo, styles-dark.scss]
+    mainfont: "Inter"
+    code-copy: true
     toc: true
     code-tools: false 
     code-overflow: wrap
-    include-after-body: giscus.html
     thebe: true
     thebe-options:
       binderOptions:

@@ -1,0 +1,19 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+$font-family: "Inter", sans-serif;
+$font-family-serif: "Inter", sans-serif;
+
+$primary: #2c2c2c;
+
+/*-- scss:rules --*/
+
+kbd, .kbd{
+  background-color: #222222 !important;
+}
+
+.navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

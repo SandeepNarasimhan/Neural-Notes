@@ -7,7 +7,6 @@ format:
   html:
     toc: true
     toc-depth: 2
-    theme: cosmo
     code-tools: false
     code-link: true
     code-fold: true
