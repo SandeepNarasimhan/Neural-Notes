@@ -67,7 +67,7 @@
     "href": "posts/Intro to Data Science.html#further-reading-and-resources",
     "title": "A Beginner’s Guide to Data Science and Machine Learning",
     "section": "Further Reading and Resources",
-    "text": "Further Reading and Resources\n\nThe Elements of Statistical Learning — Hastie, Tibshirani, Friedman\nMachine Learning Yearning — Andrew Ng\nQuarto Documentation\nGoogle’s Machine Learning Crash Course\nML Course Coursera"
+    "text": "Further Reading and Resources\n\nThe Elements of Statistical Learning — Hastie, Tibshirani, Friedman\nMachine Learning Yearning — Andrew Ng\nGoogle’s Machine Learning Crash Course\nML Course Coursera"
   },
   {
     "objectID": "posts/Intro to Data Science.html#whats-next",
@@ -95,14 +95,14 @@
     "href": "posts/Venvs.html#introduction",
     "title": "Why Virtual Environments Matter in Machine Learning Projects",
     "section": "Introduction",
-    "text": "Introduction\nMany beginners in data science and machine learning often rush into building models without laying the foundation for a clean, maintainable, and scalable workflow. In this post, I’ll walk you through why setting up a virtual environment and organizing your ML project files isn’t just helpful it’s essential.\nWhether you’re a beginner or teaching others, these practices will keep your projects healthy as they grow.\n{Source: ChatGPT, height=500px, width= 1000px}"
+    "text": "Introduction\nMany beginners (including me 🤘🏽🤦🏽‍♂️) in data science and machine learning often rush into building models without laying the foundation for a clean, maintainable, and scalable workflow. In this post, I’ll walk you through why setting up a virtual environment and organizing your ML project files isn’t just helpful it’s essential.\nWhether you’re a beginner or not, these practices will keep your projects healthy as they grow.\n{Source: ChatGPT, height=500px, width= 1000px}"
   },
   {
     "objectID": "posts/Venvs.html#learning-the-hard-way",
     "href": "posts/Venvs.html#learning-the-hard-way",
     "title": "Why Virtual Environments Matter in Machine Learning Projects",
     "section": "Learning the Hard Way",
-    "text": "Learning the Hard Way\nI didn’t come from a traditional programming background. I didn’t learn about virtual environments or project organization in a classroom or bootcamp. For the longest time, I was just running pip install in the global Python environment and saving my files wherever they felt convenient.\nAnd guess what? Everything seemed fine… until it wasn’t.\nWhen I was working on a real-world machine learning project for a client, I had to:\n\nUse specific versions of pandas and scikit-learn.\nDebug code that worked on my machine but failed on the client’s server.\nShare my work with another data scientist who couldn’t run any of my code.\n\nIt was chaotic.\nI was neck-deep in bugs, broken dependencies, and messy file structures. And there was no turning back, I had to fix it all in a short time.\nThat’s when I discovered virtual environments and structured project setups, not from a course, but from necessity. It wasn’t theory. It was survival.\n\n\n\n\n\n\nImportant\n\n\n\nSet up a virtual environment and organize your folders even if you’re just experimenting. it doesn’t seem urgent, until it is."
+    "text": "Learning the Hard Way\nI didn’t come from a traditional programming background. I didn’t learn about virtual environments or project organization in a classroom or bootcamp. For the longest time, I was just running pip install in the global Python environment and saving my files wherever they felt convenient.\nAnd guess what? Everything seemed fine… until it wasn’t.\nWhen I was working on a real-world machine learning project for a client, I had to:\n\nUse specific versions of packages (example: pandas and scikit-learn)\nDebug code that worked on my machine but failed on the client’s server.\nShare my work with another data scientist who couldn’t run any of my code.\n\nIt was chaotic.\nI was neck-deep in bugs, broken dependencies, and messy file structures. And there was no turning back, I had to fix it all in a short time.\nThat’s when I discovered virtual environments and structured project setups, not from a course, but from necessity. It wasn’t theory. It was survival.\n\n\n\n\n\n\nImportant\n\n\n\nSet up a virtual environment and organize your folders even if you’re just experimenting. it doesn’t seem urgent, until it is."
   },
   {
     "objectID": "posts/Venvs.html#why-this-matters",
@@ -123,7 +123,7 @@
     "href": "posts/Venvs.html#conclusion",
     "title": "Why Virtual Environments Matter in Machine Learning Projects",
     "section": "Conclusion",
-    "text": "Conclusion\nUsing a venv isn’t just a good practice it’s essential. It keeps your project dependencies isolated, prevents “dependency hell”, and ensures your code behaves consistently across machines. I’ve learned this the hard way as someone who didn’t come from a programming background, it wasn’t until I hit painful roadblocks in a real-world client project that I realized the value of proper environment management."
+    "text": "Conclusion\nUsing a venv isn’t just a good practice it’s essential. It keeps your project dependencies isolated, prevents “dependency hell”, and ensures your code behaves consistently across machines. I’ve learned this the hard way as someone who didn’t come from a programming background, it wasn’t until I hit painful roadblocks in a real-world client project that I realized the value of proper environment management.\nWhile model accuracy often takes the spotlight, it’s only one part of the bigger picture. Reproducibility, collaboration, and maintainability are just as important especially when your work moves from personal projects to production or team settings."
   },
   {
     "objectID": "posts/Venvs.html#whats-next-getting-started-with-git-github",

@@ -179,6 +179,8 @@ gtag('config', 'G-G93X3QVJC5', { 'anonymize_ip': true});
 <div class="quarto-title">
 <h1 class="title">Why Virtual Environments Matter in Machine Learning Projects</h1>
   <div class="quarto-categories">
+    <div class="quarto-category">virtual-environments</div>
+    <div class="quarto-category">python</div>
     <div class="quarto-category">Data Science</div>
     <div class="quarto-category">Machine Learning</div>
   </div>
@@ -213,8 +215,8 @@ gtag('config', 'G-G93X3QVJC5', { 'anonymize_ip': true});
 <p><a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20post!&amp;url=https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html"><img src="https://img.shields.io/badge/Tweet-Share_on_Twitter-1DA1F2?logo=twitter.png" class="img-fluid" alt="Tweet"></a> <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html"><img src="https://img.shields.io/badge/Share-LinkedIn-blue?logo=linkedin.png" class="img-fluid" alt="LinkedIn"></a> <a href="mailto:?subject=Interesting%20Post&amp;body=Check%20out%20this%20blog%20post%3A%20https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html"><img src="https://img.shields.io/badge/Email-Share_via_Email-red?logo=gmail.png" class="img-fluid" alt="Email"></a> <a href="https://api.whatsapp.com/send?text=Check%20out%20this%20blog%20post%3A%20https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html"><img src="https://img.shields.io/badge/WhatsApp-Share-25D366?logo=whatsapp&amp;logoColor=white.png" class="img-fluid" alt="WhatsApp"></a> <a href="https://www.reddit.com/submit?url=https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html&amp;title=Virtual%20Environments"><img src="https://img.shields.io/badge/Reddit-Share-orange?logo=reddit.png" class="img-fluid" alt="Reddit"></a></p>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Many beginners in data science and machine learning often rush into building models without laying the foundation for a clean, maintainable, and scalable workflow. In this post, I’ll walk you through why setting up a virtual environment and organizing your ML project files isn’t just helpful it’s essential.</p>
-<p>Whether you’re a beginner or teaching others, these practices will keep your projects healthy as they grow.</p>
+<p>Many beginners (including me 🤘🏽🤦🏽‍♂️) in data science and machine learning often rush into building models without laying the foundation for a clean, maintainable, and scalable workflow. In this post, I’ll walk you through why setting up a virtual environment and organizing your ML project files isn’t just helpful it’s essential.</p>
+<p>Whether you’re a beginner or not, these practices will keep your projects healthy as they grow.</p>
 <p><img src="images/Venvs.png" class="img-fluid" alt="Source: ChatGPT">{<strong>Source: ChatGPT</strong>, height=500px, width= 1000px}</p>
 </section>
 <section id="learning-the-hard-way" class="level2">
@@ -223,7 +225,7 @@ gtag('config', 'G-G93X3QVJC5', { 'anonymize_ip': true});
 <p>And guess what? Everything seemed fine… until it wasn’t.</p>
 <p>When I was working on a real-world machine learning project for a client, I had to:</p>
 <ul>
-<li>Use specific versions of pandas and scikit-learn.</li>
+<li>Use specific versions of packages (example: pandas and scikit-learn)</li>
 <li>Debug code that worked on my machine but failed on the client’s server.</li>
 <li>Share my work with another data scientist who couldn’t run any of my code.</li>
 </ul>
@@ -360,6 +362,7 @@ Note
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
 <p>Using a venv isn’t just a good practice it’s essential. It keeps your project dependencies isolated, prevents “dependency hell”, and ensures your code behaves consistently across machines. I’ve learned this the hard way as someone who didn’t come from a programming background, it wasn’t until I hit painful roadblocks in a real-world client project that I realized the value of proper environment management.</p>
+<p>While model accuracy often takes the spotlight, it’s only one part of the bigger picture. Reproducibility, collaboration, and maintainability are just as important especially when your work moves from personal projects to production or team settings.</p>
 </section>
 <section id="whats-next-getting-started-with-git-github" class="level2">
 <h2 class="anchored" data-anchor-id="whats-next-getting-started-with-git-github">What’s Next: Getting Started with Git &amp; GitHub</h2>
