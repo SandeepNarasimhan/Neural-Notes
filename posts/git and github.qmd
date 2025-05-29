@@ -1,9 +1,8 @@
-
 ---
 title: "Version Control Made Easy: Introduction to Git and GitHub"
 author: "Sandeep N"
 date: 2025-05-29
-categories: [virtual-environments, python, Data Science, Machine Learning]
+categories: [Version Control, python, Git, Github]
 format:
   html:
     toc: true

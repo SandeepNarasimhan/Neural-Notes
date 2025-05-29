@@ -4,8 +4,8 @@
     "items": [
       "/posts/Intro to Data Science.html",
       "/index.html",
-      "/posts/Venvs.html",
       "/posts/git and github.html",
+      "/posts/Venvs.html",
       "/about.html"
     ]
   },
@@ -14,8 +14,8 @@
     "items": [
       "/posts/Intro to Data Science.html",
       "/posts.html",
-      "/posts/Venvs.html",
       "/posts/git and github.html",
+      "/posts/Venvs.html",
       "/about.html"
     ]
   }
