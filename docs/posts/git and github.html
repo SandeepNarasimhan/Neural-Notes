@@ -328,8 +328,22 @@ gtag('config', 'G-G93X3QVJC5', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#version-control-system-vcs" id="toc-version-control-system-vcs" class="nav-link active" data-scroll-target="#version-control-system-vcs">Version Control System (VCS)</a>
+  <ul class="collapse">
+  <li><a href="#there-are-two-major-types-of-vcs" id="toc-there-are-two-major-types-of-vcs" class="nav-link" data-scroll-target="#there-are-two-major-types-of-vcs">There are two major types of VCS:</a></li>
+  </ul></li>
+  <li><a href="#what-is-git" id="toc-what-is-git" class="nav-link" data-scroll-target="#what-is-git">What is Git?</a></li>
+  <li><a href="#git-terminology" id="toc-git-terminology" class="nav-link" data-scroll-target="#git-terminology">Git Terminology</a></li>
+  <li><a href="#git-follows-a-three-stage-architecture" id="toc-git-follows-a-three-stage-architecture" class="nav-link" data-scroll-target="#git-follows-a-three-stage-architecture">Git follows a three-stage architecture:</a></li>
+  <li><a href="#why-use-git" id="toc-why-use-git" class="nav-link" data-scroll-target="#why-use-git">Why Use Git?</a></li>
+  <li><a href="#download-and-install" id="toc-download-and-install" class="nav-link" data-scroll-target="#download-and-install">Download and Install</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/SandeepNarasimhan/Neural-Notes/edit/main/posts/git and github.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SandeepNarasimhan/Neural-Notes/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -384,14 +398,93 @@ Warning
 </div>
 <div class="callout-body-container callout-body">
 <p><strong>🚧 Work in Progress!</strong><br>
-<strong>Hey! I’m still working on this post. If you’re interested, keep an eye out for updates here — exciting stuff coming soon!</strong></p>
+<strong>Hey! I’m still working on this post. If you’re interested, keep an eye out for updates here — exciting stuff coming soon!!</strong></p>
 </div>
 </div>
-<p><img src="images/git.png" class="img-fluid" alt="git">{<strong>Source: Google Gemini</strong>, height=500px, width= 1000px }</p>
 <p>Add a .gitkeep or empty .txt file inside each folder so Git can track them even if they’re empty initially:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">touch</span> project_name/<span class="dt">{data</span><span class="op">,</span><span class="dt">notebooks</span><span class="op">,</span><span class="dt">src</span><span class="op">,</span><span class="dt">models</span><span class="op">,</span><span class="dt">outputs</span><span class="op">,</span><span class="dt">tests}</span>/.gitkeep</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>You start with a file called script.py. Then it becomes script_final.py. Then script_final2.py. Eventually, you’re looking at script_final_final_really_final.py.</p>
+<p>It gets messy fast.</p>
+<p>A system that can remember what changed, when, why and by whom — without relying on awkward filenames or endless copies. That’s exactly where Version Control Systems (VCS) come in.</p>
+<p><img src="images/git.png" class="img-fluid" alt="git">{<strong>Source: Google Gemini</strong>, height=500px, width= 1000px }</p>
+<section id="version-control-system-vcs" class="level2">
+<h2 class="anchored" data-anchor-id="version-control-system-vcs">Version Control System (VCS)</h2>
+<p>helps developers track changes in source code over time. It allows you to:</p>
+<ul>
+<li>Revert to previous versions of code</li>
+<li>Compare changes made over time</li>
+<li>Identify who modified a file and when</li>
+<li>Collaborate with multiple contributors without overwriting each other’s work</li>
+<li>Experiment in branches without affecting the main codebase</li>
+</ul>
+<p>Think of it as a magical time machine for your code. You can move back and forth between versions, experiment freely, and maintain a clear record of all changes.</p>
+<section id="there-are-two-major-types-of-vcs" class="level3">
+<h3 class="anchored" data-anchor-id="there-are-two-major-types-of-vcs">There are two major types of VCS:</h3>
+<ol type="1">
+<li>Centralized Version Control Systems (CVCS)</li>
+<li>Distributed Version Control Systems (DVCS)</li>
+</ol>
+<p>In this blog, I’m going to focus on DVCS specifically, on Git.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Note">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Git is the most widely used Version Control System today. It’s trusted by individual developers, open source communities, and large enterprises alike making it an essential tool in modern software development.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="what-is-git" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-git">What is Git?</h2>
+<p>Git is the most popular Distributed Version Control System (DVCS) used by developers across the world. It was created in 2005 by Linus Torvalds, the creator of the Linux kernel, to manage the Linux source code more efficiently.</p>
+<p>Unlike centralized systems, Git allows every user to have their own full copy of the repository, including its entire history.</p>
+</section>
+<section id="git-terminology" class="level2">
+<h2 class="anchored" data-anchor-id="git-terminology">Git Terminology</h2>
+<p>high-level overview of Git’s core concepts:</p>
+<ul>
+<li>Repository (repo): A directory that contains your project files and a .git folder, which tracks all changes.</li>
+<li>Commit: A snapshot of your files at a certain point in time. Each commit has a unique ID and message describing the change.</li>
+<li>Branch: A separate line of development. The default branch is usually called main or master.</li>
+<li>Merge: Integrates changes from one branch into another.</li>
+<li>Clone: Copy an entire repository from a remote server to your local machine.</li>
+<li>Push / Pull: Push sends your local commits to a remote repository (like GitHub). Pull fetches and integrates changes from remote to local.</li>
+</ul>
+</section>
+<section id="git-follows-a-three-stage-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="git-follows-a-three-stage-architecture">Git follows a three-stage architecture:</h2>
+<ol type="1">
+<li>Working Tree – Where you make changes.</li>
+<li>Staging Area (Index) – Where you prepare changes for the next commit.</li>
+<li>Repository (.git folder) – Where committed changes are stored permanently.</li>
+</ol>
+</section>
+<section id="why-use-git" class="level2">
+<h2 class="anchored" data-anchor-id="why-use-git">Why Use Git?</h2>
+<ul>
+<li>Speed: Most operations are local and incredibly fast.</li>
+<li>Data Integrity: history of every change is securely stored</li>
+<li>Branching and Merging: Branches are lightweight and encourage experimentation.</li>
+<li>Widespread Adoption: Git is used in open source and enterprise environments alike. Learning Git is an essential skill for any developer or data scientist.</li>
+</ul>
+</section>
+<section id="download-and-install" class="level2">
+<h2 class="anchored" data-anchor-id="download-and-install">Download and Install</h2>
+<p>To start using Git, you’ll need to install it on your machine. Here are the official resources:</p>
+<p><a href="https://git-scm.com/downloads">Download Git</a><br>
+<a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Installation Guide</a></p>
+<p>Once installed, you can open a terminal (or Git Bash on Windows) and run:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>If it returns a version number without any error, Git is ready to use!</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -815,7 +908,7 @@ Warning
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/SandeepNarasimhan/Neural-Notes/edit/main/posts/git and github.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SandeepNarasimhan/Neural-Notes/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SandeepNarasimhan/Neural-Notes/edit/main/posts/git and github.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SandeepNarasimhan/Neural-Notes/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>🤘🏽☹️🤘🏽</p>
 </div>

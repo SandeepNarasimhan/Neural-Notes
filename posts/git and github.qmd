@@ -18,10 +18,79 @@ jupyter: python3
 **Hey! I’m still working on this post. If you’re interested, keep an eye out for updates here — exciting stuff coming soon!!**
 :::
 
-![git](images/git.png){**Source: Google Gemini**, height=500px, width= 1000px }
-
 Add a .gitkeep or empty .txt file inside each folder so Git can track them even if they’re empty initially:
 
 ```{.bash}
 touch project_name/{data,notebooks,src,models,outputs,tests}/.gitkeep
 ```
+
+You start with a file called script.py. Then it becomes script_final.py. Then script_final2.py. Eventually, you’re looking at script_final_final_really_final.py.
+
+It gets messy fast.
+
+A system that can remember what changed, when, why and by whom — without relying on awkward filenames or endless copies. That’s exactly where Version Control Systems (VCS) come in.
+
+![git](images/git.png){**Source: Google Gemini**, height=500px, width= 1000px }
+
+## Version Control System (VCS)
+
+helps developers track changes in source code over time. It allows you to:
+
+- Revert to previous versions of code
+- Compare changes made over time
+- Identify who modified a file and when
+- Collaborate with multiple contributors without overwriting each other's work
+- Experiment in branches without affecting the main codebase
+
+Think of it as a magical time machine for your code. You can move back and forth between versions, experiment freely, and maintain a clear record of all changes.
+
+### There are two major types of VCS:
+
+1. Centralized Version Control Systems (CVCS)
+2. Distributed Version Control Systems (DVCS)
+
+In this blog, I’m going to focus on DVCS specifically, on Git.
+
+::: {.callout-note title="Note"}
+Git is the most widely used Version Control System today. It’s trusted by individual developers, open source communities, and large enterprises alike making it an essential tool in modern software development.
+:::
+
+## What is Git?
+
+Git is the most popular Distributed Version Control System (DVCS) used by developers across the world. It was created in 2005 by Linus Torvalds, the creator of the Linux kernel, to manage the Linux source code more efficiently.
+
+Unlike centralized systems, Git allows every user to have their own full copy of the repository, including its entire history.
+
+## Git Terminology
+high-level overview of Git’s core concepts:
+
+- Repository (repo): A directory that contains your project files and a .git folder, which tracks all changes.
+- Commit: A snapshot of your files at a certain point in time. Each commit has a unique ID and message describing the change.
+- Branch: A separate line of development. The default branch is usually called main or master.
+- Merge: Integrates changes from one branch into another.
+- Clone: Copy an entire repository from a remote server to your local machine.
+- Push / Pull: Push sends your local commits to a remote repository (like GitHub). Pull fetches and integrates changes from remote to local.
+
+## Git follows a three-stage architecture:
+1. Working Tree – Where you make changes.
+2. Staging Area (Index) – Where you prepare changes for the next commit.
+3. Repository (.git folder) – Where committed changes are stored permanently.
+
+## Why Use Git?
+- Speed: Most operations are local and incredibly fast.
+- Data Integrity: history of every change is securely stored
+- Branching and Merging: Branches are lightweight and encourage experimentation.
+- Widespread Adoption: Git is used in open source and enterprise environments alike. Learning Git is an essential skill for any developer or data scientist.
+
+## Download and Install
+To start using Git, you’ll need to install it on your machine. Here are the official resources:
+
+[Download Git](https://git-scm.com/downloads)  
+[Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+Once installed, you can open a terminal (or Git Bash on Windows) and run:
+```{.bash}
+git --version
+```
+If it returns a version number without any error, Git is ready to use!
+

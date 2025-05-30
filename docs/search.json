@@ -158,7 +158,49 @@
     "href": "posts/git and github.html",
     "title": "Version Control Made Easy: Introduction to Git and GitHub",
     "section": "",
-    "text": "Warning\n\n\n\n🚧 Work in Progress!\nHey! I’m still working on this post. If you’re interested, keep an eye out for updates here — exciting stuff coming soon!\n\n\n{Source: Google Gemini, height=500px, width= 1000px }\nAdd a .gitkeep or empty .txt file inside each folder so Git can track them even if they’re empty initially:\ntouch project_name/{data,notebooks,src,models,outputs,tests}/.gitkeep"
+    "text": "Add a .gitkeep or empty .txt file inside each folder so Git can track them even if they’re empty initially:\nYou start with a file called script.py. Then it becomes script_final.py. Then script_final2.py. Eventually, you’re looking at script_final_final_really_final.py.\nIt gets messy fast.\nA system that can remember what changed, when, why and by whom — without relying on awkward filenames or endless copies. That’s exactly where Version Control Systems (VCS) come in.\n{Source: Google Gemini, height=500px, width= 1000px }"
+  },
+  {
+    "objectID": "posts/git and github.html#version-control-system-vcs",
+    "href": "posts/git and github.html#version-control-system-vcs",
+    "title": "Version Control Made Easy: Introduction to Git and GitHub",
+    "section": "Version Control System (VCS)",
+    "text": "Version Control System (VCS)\nhelps developers track changes in source code over time. It allows you to:\n\nRevert to previous versions of code\nCompare changes made over time\nIdentify who modified a file and when\nCollaborate with multiple contributors without overwriting each other’s work\nExperiment in branches without affecting the main codebase\n\nThink of it as a magical time machine for your code. You can move back and forth between versions, experiment freely, and maintain a clear record of all changes.\n\nThere are two major types of VCS:\n\nCentralized Version Control Systems (CVCS)\nDistributed Version Control Systems (DVCS)\n\nIn this blog, I’m going to focus on DVCS specifically, on Git.\n\n\n\n\n\n\nNote\n\n\n\nGit is the most widely used Version Control System today. It’s trusted by individual developers, open source communities, and large enterprises alike making it an essential tool in modern software development."
+  },
+  {
+    "objectID": "posts/git and github.html#what-is-git",
+    "href": "posts/git and github.html#what-is-git",
+    "title": "Version Control Made Easy: Introduction to Git and GitHub",
+    "section": "What is Git?",
+    "text": "What is Git?\nGit is the most popular Distributed Version Control System (DVCS) used by developers across the world. It was created in 2005 by Linus Torvalds, the creator of the Linux kernel, to manage the Linux source code more efficiently.\nUnlike centralized systems, Git allows every user to have their own full copy of the repository, including its entire history."
+  },
+  {
+    "objectID": "posts/git and github.html#git-terminology",
+    "href": "posts/git and github.html#git-terminology",
+    "title": "Version Control Made Easy: Introduction to Git and GitHub",
+    "section": "Git Terminology",
+    "text": "Git Terminology\nhigh-level overview of Git’s core concepts:\n\nRepository (repo): A directory that contains your project files and a .git folder, which tracks all changes.\nCommit: A snapshot of your files at a certain point in time. Each commit has a unique ID and message describing the change.\nBranch: A separate line of development. The default branch is usually called main or master.\nMerge: Integrates changes from one branch into another.\nClone: Copy an entire repository from a remote server to your local machine.\nPush / Pull: Push sends your local commits to a remote repository (like GitHub). Pull fetches and integrates changes from remote to local."
+  },
+  {
+    "objectID": "posts/git and github.html#git-follows-a-three-stage-architecture",
+    "href": "posts/git and github.html#git-follows-a-three-stage-architecture",
+    "title": "Version Control Made Easy: Introduction to Git and GitHub",
+    "section": "Git follows a three-stage architecture:",
+    "text": "Git follows a three-stage architecture:\n\nWorking Tree – Where you make changes.\nStaging Area (Index) – Where you prepare changes for the next commit.\nRepository (.git folder) – Where committed changes are stored permanently."
+  },
+  {
+    "objectID": "posts/git and github.html#why-use-git",
+    "href": "posts/git and github.html#why-use-git",
+    "title": "Version Control Made Easy: Introduction to Git and GitHub",
+    "section": "Why Use Git?",
+    "text": "Why Use Git?\n\nSpeed: Most operations are local and incredibly fast.\nData Integrity: history of every change is securely stored\nBranching and Merging: Branches are lightweight and encourage experimentation.\nWidespread Adoption: Git is used in open source and enterprise environments alike. Learning Git is an essential skill for any developer or data scientist."
+  },
+  {
+    "objectID": "posts/git and github.html#download-and-install",
+    "href": "posts/git and github.html#download-and-install",
+    "title": "Version Control Made Easy: Introduction to Git and GitHub",
+    "section": "Download and Install",
+    "text": "Download and Install\nTo start using Git, you’ll need to install it on your machine. Here are the official resources:\nDownload Git\nInstallation Guide\nOnce installed, you can open a terminal (or Git Bash on Windows) and run:\ngit --version\nIf it returns a version number without any error, Git is ready to use!"
   },
   {
     "objectID": "about.html",
