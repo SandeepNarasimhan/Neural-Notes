@@ -15,7 +15,7 @@ jupyter: python3
 
 ::: {.callout-warning icon="🛠️" .bg-yellow-100 .border-yellow-500 .text-yellow-800}
 **🚧 Work in Progress!**  
-**Hey! I’m still working on this post. If you’re interested, keep an eye out for updates here — exciting stuff coming soon!**
+**Hey! I’m still working on this post. If you’re interested, keep an eye out for updates here — exciting stuff coming soon!!**
 :::
 
 ![git](images/git.png){**Source: Google Gemini**, height=500px, width= 1000px }
