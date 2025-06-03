@@ -342,6 +342,22 @@ gtag('config', 'G-G93X3QVJC5', { 'anonymize_ip': true});
   <li><a href="#git-follows-a-three-stage-architecture" id="toc-git-follows-a-three-stage-architecture" class="nav-link" data-scroll-target="#git-follows-a-three-stage-architecture">Git follows a three-stage architecture:</a></li>
   <li><a href="#why-use-git" id="toc-why-use-git" class="nav-link" data-scroll-target="#why-use-git">Why Use Git?</a></li>
   <li><a href="#download-and-install" id="toc-download-and-install" class="nav-link" data-scroll-target="#download-and-install">Download and Install</a></li>
+  <li><a href="#step-by-step-git-workflow" id="toc-step-by-step-git-workflow" class="nav-link" data-scroll-target="#step-by-step-git-workflow">Step-by-Step Git Workflow</a>
+  <ul class="collapse">
+  <li><a href="#set-your-name-and-email-one-time-setup" id="toc-set-your-name-and-email-one-time-setup" class="nav-link" data-scroll-target="#set-your-name-and-email-one-time-setup">Set Your Name and Email (one-time setup)</a></li>
+  <li><a href="#initialize-git-in-your-project" id="toc-initialize-git-in-your-project" class="nav-link" data-scroll-target="#initialize-git-in-your-project">Initialize Git in Your Project</a></li>
+  <li><a href="#check-the-current-git-status" id="toc-check-the-current-git-status" class="nav-link" data-scroll-target="#check-the-current-git-status">Check the Current Git Status</a></li>
+  <li><a href="#stage-the-file-for-commit" id="toc-stage-the-file-for-commit" class="nav-link" data-scroll-target="#stage-the-file-for-commit">Stage the File for Commit</a></li>
+  <li><a href="#commit-the-file" id="toc-commit-the-file" class="nav-link" data-scroll-target="#commit-the-file">Commit the File</a></li>
+  <li><a href="#check-the-commit-history" id="toc-check-the-commit-history" class="nav-link" data-scroll-target="#check-the-commit-history">Check the Commit History</a></li>
+  </ul></li>
+  <li><a href="#wrapping-up" id="toc-wrapping-up" class="nav-link" data-scroll-target="#wrapping-up">Wrapping Up</a></li>
+  <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">What’s Next?</a>
+  <ul class="collapse">
+  <li><a href="#source" id="toc-source" class="nav-link" data-scroll-target="#source">Source</a></li>
+  </ul></li>
+  <li><a href="#connect-with-me" id="toc-connect-with-me" class="nav-link" data-scroll-target="#connect-with-me">Connect with Me</a></li>
+  <li><a href="#comments" id="toc-comments" class="nav-link" data-scroll-target="#comments">💬 Comments</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/SandeepNarasimhan/Neural-Notes/edit/main/posts/git and github.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SandeepNarasimhan/Neural-Notes/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -401,8 +417,6 @@ Warning
 <strong>Hey! I’m still working on this post. If you’re interested, keep an eye out for updates here — exciting stuff coming soon!!</strong></p>
 </div>
 </div>
-<p>Add a .gitkeep or empty .txt file inside each folder so Git can track them even if they’re empty initially:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">touch</span> project_name/<span class="dt">{data</span><span class="op">,</span><span class="dt">notebooks</span><span class="op">,</span><span class="dt">src</span><span class="op">,</span><span class="dt">models</span><span class="op">,</span><span class="dt">outputs</span><span class="op">,</span><span class="dt">tests}</span>/.gitkeep</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>You start with a file called script.py. Then it becomes script_final.py. Then script_final2.py. Eventually, you’re looking at script_final_final_really_final.py.</p>
 <p>It gets messy fast.</p>
 <p>A system that can remember what changed, when, why and by whom — without relying on awkward filenames or endless copies. That’s exactly where Version Control Systems (VCS) come in.</p>
@@ -480,8 +494,185 @@ Note
 <p><a href="https://git-scm.com/downloads">Download Git</a><br>
 <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Installation Guide</a></p>
 <p>Once installed, you can open a terminal (or Git Bash on Windows) and run:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>If it returns a version number without any error, Git is ready to use!</p>
+</section>
+<section id="step-by-step-git-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="step-by-step-git-workflow">Step-by-Step Git Workflow</h2>
+<p>We are going to use the directory created in our last session (ml_project). please reffer <a href="https://sandeepnarasimhan.github.io/Neural-Notes/posts/Venvs.html">Virtual environments in ML projects</a> if you do not have it already. (You can also create a new directory if you want).</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ml_project/</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> data/            <span class="co"># Raw or processed datasets</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> notebooks/       <span class="co"># Jupyter notebooks for EDA</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> src/             <span class="co"># Source code / scripts / modules</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> models/          <span class="co"># Saved model files</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> venv/            <span class="co"># Virtual environment</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> requirements.txt <span class="co"># Package list</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="set-your-name-and-email-one-time-setup" class="level3">
+<h3 class="anchored" data-anchor-id="set-your-name-and-email-one-time-setup">Set Your Name and Email (one-time setup)</h3>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"Your Full Name"</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"your.email@example.com"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This configures your name and email and appears in your commit history and helps identify who made each change. Use the same email as your GitHub account to link commits correctly.</p>
+</section>
+<section id="initialize-git-in-your-project" class="level3">
+<h3 class="anchored" data-anchor-id="initialize-git-in-your-project">Initialize Git in Your Project</h3>
+<p>Add a .gitkeep or empty .txt file inside each folder so Git can track them even if they’re empty initially:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">touch</span> ml_project/<span class="dt">{data</span><span class="op">,</span><span class="dt">notebooks</span><span class="op">,</span><span class="dt">src</span><span class="op">,</span><span class="dt">models</span><span class="op">,</span><span class="dt">outputs</span><span class="op">,</span><span class="dt">tests}</span>/.gitkeep</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Once we have created a project directory we can initialize git by</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This turns your folder into a Git repository by creating a hidden .git/ folder. This folder contains everything Git needs to track changes, including:</p>
+<ul>
+<li>Commit history</li>
+<li>Branches</li>
+<li>Staging area (index)</li>
+<li>Configuration settings</li>
+</ul>
+<p>It tells Git: “Start tracking this project.” It enables all Git features like git add, git commit, and git push.</p>
+<p>To view hidden .git directory you can use</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="at">-l</span> .git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-style-default callout-caution callout-titled" title="Caution">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Only run git init once per project. If you delete the .git/ folder, you lose all version history.</p>
+</div>
+</div>
+<p>right after initializing git we create two files which are important</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"# My Project Title"</span> <span class="op">&gt;</span> README.md</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">touch</span> .gitignore</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>README.md is a Markdown file that typically serves as the front page of your project.</p>
+<p>It should include: - What the project does - How to install/run it - Dependencies - Usage examples and other important project details</p>
+<p>.gitignore tells Git which files or folders NOT to track or include in commits. Examples of what to ignore:</p>
+<ul>
+<li>OS/system files (.DS_Store, Thumbs.db)</li>
+<li>IDE/editor files (.vscode/, .idea/)</li>
+<li>Logs or temporary files (<em>.log, </em>.tmp)</li>
+<li>Dependency folders (node_modules/, venv/)</li>
+<li>Sensitive data (.env, credentials.json)</li>
+</ul>
+<p>In our example we are going to add “venv/” to .gitignore</p>
+<div class="callout callout-style-default callout-caution callout-titled" title="Caution">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Without a .gitignore, Git may track junk or private files that you never meant to upload.</p>
+</div>
+</div>
+</section>
+<section id="check-the-current-git-status" class="level3">
+<h3 class="anchored" data-anchor-id="check-the-current-git-status">Check the Current Git Status</h3>
+<p>This shows you: - New/untracked files - Changes that are staged or not staged - What’s ready to commit</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>You’ll see something like:</p>
+<p>““” On branch master</p>
+<p>No commits yet</p>
+<p>Untracked files: (use “git add <file>…” to include in what will be committed)</file></p>
+<pre><code>.gitignore
+README.md</code></pre>
+<p>nothing added to commit but untracked files present (use “git add” to track) ““”</p>
+<p>Now, to track these files</p>
+</section>
+<section id="stage-the-file-for-commit" class="level3">
+<h3 class="anchored" data-anchor-id="stage-the-file-for-commit">Stage the File for Commit</h3>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add README.md</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .gitignore</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Think of git add as preparing the file to be saved (but not saving yet)</p>
+<p><strong>Working Directory ──(git add)──▶ Staging Area</strong></p>
+</section>
+<section id="commit-the-file" class="level3">
+<h3 class="anchored" data-anchor-id="commit-the-file">Commit the File</h3>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add README and .giignore files"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The -m flag adds a commit message describing what you did. it is always a good practice to give a proper desciption of what changes you have done in this commit. git commit takes a snapshot of your staged changes and permanently stores it in the Git repository.</p>
+<section id="why-is-git-commit-important" class="level4">
+<h4 class="anchored" data-anchor-id="why-is-git-commit-important">Why Is git commit Important?</h4>
+<ul>
+<li>It records your progress in small, logical steps</li>
+<li>Makes it easier to undo mistakes, collaborate, and track who did what</li>
+<li>Helps in code reviews and project management</li>
+</ul>
+<p><strong>Working Directory ──(git add)──▶ Staging Area ──(git commit)──▶ Git Repository</strong></p>
+</section>
+</section>
+<section id="check-the-commit-history" class="level3">
+<h3 class="anchored" data-anchor-id="check-the-commit-history">Check the Commit History</h3>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>git log displays the history of commits in your repository — from the most recent to the oldest.</p>
+<p>It shows you: - Who made the commit (name and email) - When it was made - What the commit message was - A unique commit ID (SHA)</p>
+</section>
+</section>
+<section id="wrapping-up" class="level2">
+<h2 class="anchored" data-anchor-id="wrapping-up">Wrapping Up</h2>
+<p>In this post, you’ve taken your very first steps with Git:</p>
+<ol type="1">
+<li>You initialized a Git repository with git init</li>
+<li>Learned how to track changes with git add and git commit</li>
+<li>Explored how to inspect your project history with git log</li>
+<li>And got familiar with concepts like .gitignore and git status</li>
+<li>You now have a working Git project right on your local machine.</li>
+</ol>
+<p>But what if you want to back up your code, access it from anywhere, or collaborate with others?</p>
+<p>That’s where GitHub comes in!</p>
+</section>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s Next?</h2>
+<p>In the next blog, we’ll connect your local Git project to a remote repository on GitHub. You’ll learn:</p>
+<ol type="1">
+<li>Why pushing to GitHub is useful</li>
+<li>How to create a GitHub repo</li>
+<li>How to connect it to your local repo</li>
+<li>How to push your code to the cloud!</li>
+</ol>
+<p>These are the foundational steps every developer takes when beginning a new project, this is just the beginning.</p>
+<section id="source" class="level3">
+<h3 class="anchored" data-anchor-id="source">Source</h3>
+<ol type="1">
+<li><a href="https://git-scm.com/doc">Git Documentation</a></li>
+<li><a href="https://git-scm.com/book/en/v2">Git Book</a></li>
+</ol>
+<p><a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Cheatsheet</a></p>
+</section>
+</section>
+<section id="connect-with-me" class="level2">
+<h2 class="anchored" data-anchor-id="connect-with-me">Connect with Me</h2>
+<ul>
+<li><a href="https://github.com/SandeepNarasimhan"><img src="https://img.shields.io/badge/GitHub-@SandeepNarasimhan-black?logo=github.png" class="img-fluid" alt="GitHub"></a><br>
+</li>
+<li><a href="https://www.linkedin.com/in/sandeep-narasimhan-45769295"><img src="https://img.shields.io/badge/LinkedIn-Sandeep%20Narasimhan-blue?logo=linkedin.png" class="img-fluid" alt="LinkedIn"></a><br>
+</li>
+<li><a href="mailto:sandeepsanpande@gmail.com"><img src="https://img.shields.io/badge/Email-sandeepsanpande@gmail.com-red?logo=gmail" class="img-fluid" alt="Email"></a></li>
+</ul>
+<div class="callout callout-style-default callout-caution callout-titled" title="Desclaimer">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desclaimer
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I use AI tools to assist in writing and drafting some of the content on this blog. but all content is reviewed and edited by me for accuracy and clarity.</p>
+</div>
+</div>
+</section>
+<section id="comments" class="level2">
+<h2 class="anchored" data-anchor-id="comments">💬 Comments</h2>
+<div id="utterances-thread">
+
+</div>
+<script src="https://utteranc.es/client.js" repo="SandeepNarasimhan/Neural-Notes" issue-term="pathname" label="💬 comment" theme="github-light" crossorigin="anonymous" async="">
+</script>
 
 
 </section>

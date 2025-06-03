@@ -18,12 +18,6 @@ jupyter: python3
 **Hey! I’m still working on this post. If you’re interested, keep an eye out for updates here — exciting stuff coming soon!!**
 :::
 
-Add a .gitkeep or empty .txt file inside each folder so Git can track them even if they’re empty initially:
-
-```{.bash}
-touch project_name/{data,notebooks,src,models,outputs,tests}/.gitkeep
-```
-
 You start with a file called script.py. Then it becomes script_final.py. Then script_final2.py. Eventually, you’re looking at script_final_final_really_final.py.
 
 It gets messy fast.
@@ -96,12 +90,204 @@ If it returns a version number without any error, Git is ready to use!
 
 
 
+## Step-by-Step Git Workflow
+
+We are going to use the directory created in our last session (ml_project). please reffer [Virtual environments in ML projects](https://sandeepnarasimhan.github.io/Neural-Notes/posts/Venvs.html) if you do not have it already. (You can also create a new directory if you want).
+
+```{.bash}
+ml_project/
+├── data/            # Raw or processed datasets
+├── notebooks/       # Jupyter notebooks for EDA
+├── src/             # Source code / scripts / modules
+├── models/          # Saved model files
+├── venv/            # Virtual environment
+├── requirements.txt # Package list
+```
+
+### Set Your Name and Email (one-time setup)
+```{.bash}
+git config --global user.name "Your Full Name"
+git config --global user.email "your.email@example.com"
+```
+
+This configures your name and email and appears in your commit history and helps identify who made each change. Use the same email as your GitHub account to link commits correctly.
+
+### Initialize Git in Your Project
+
+Add a .gitkeep or empty .txt file inside each folder so Git can track them even if they’re empty initially:
+
+```{.bash}
+touch ml_project/{data,notebooks,src,models,outputs,tests}/.gitkeep
+```
+
+Once we have created a project directory we can initialize git by 
+```{.bash}
+git init
+```
+
+This turns your folder into a Git repository by creating a hidden .git/ folder. This folder contains everything Git needs to track changes, including:
+
+- Commit history
+- Branches
+- Staging area (index)
+- Configuration settings
+
+It tells Git: "Start tracking this project."
+It enables all Git features like git add, git commit, and git push.
+
+To view hidden .git directory you can use
+```{.bash}
+ls -l .git
+```
+
+::: {.callout-caution title="Caution"}
+Only run git init once per project.
+If you delete the .git/ folder, you lose all version history.
+:::
+
+right after initializing git we create two files which are important 
+
+```{.bash}
+echo "# My Project Title" > README.md
+touch .gitignore
+```
+
+README.md is a Markdown file that typically serves as the front page of your project.
+
+It should include:
+- What the project does
+- How to install/run it
+- Dependencies
+- Usage examples and other important project details
+
+.gitignore tells Git which files or folders NOT to track or include in commits.
+Examples of what to ignore:
+
+- OS/system files (.DS_Store, Thumbs.db)
+- IDE/editor files (.vscode/, .idea/)
+- Logs or temporary files (*.log, *.tmp)
+- Dependency folders (node_modules/, venv/)
+- Sensitive data (.env, credentials.json)
+
+In our example we are going to add "venv/" to .gitignore
+
+::: {.callout-caution title="Caution"}
+Without a .gitignore, Git may track junk or private files that you never meant to upload.
+::: 
 
 
+### Check the Current Git Status
+
+This shows you:
+- New/untracked files
+- Changes that are staged or not staged
+- What’s ready to commit
+
+```{.bash}
+git status
+```
+You’ll see something like:
+
+"""
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    .gitignore
+    README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+"""
+
+Now, to track these files
+
+### Stage the File for Commit
+```{.bash}
+git add README.md
+git add .gitignore
+```
+Think of git add as preparing the file to be saved (but not saving yet)
+
+**Working Directory ──(git add)──▶ Staging Area**
 
 
+### Commit the File
+```{.bash}
+git commit -m "Add README and .giignore files"
+```
+The -m flag adds a commit message describing what you did. it is always a good practice to give a proper desciption of what changes you have done in this commit. git commit takes a snapshot of your staged changes and permanently stores it in the Git repository.
 
+#### Why Is git commit Important?
+- It records your progress in small, logical steps
+- Makes it easier to undo mistakes, collaborate, and track who did what
+- Helps in code reviews and project management
 
+**Working Directory ──(git add)──▶ Staging Area ──(git commit)──▶ Git Repository**
 
+### Check the Commit History
+```{.bash}
+git log
+```
+git log displays the history of commits in your repository — from the most recent to the oldest.
 
-#### working branch
+It shows you:
+- Who made the commit (name and email)
+- When it was made
+- What the commit message was
+- A unique commit ID (SHA)
+
+## Wrapping Up
+
+In this post, you’ve taken your very first steps with Git:
+
+1. You initialized a Git repository with git init
+2. Learned how to track changes with git add and git commit
+3. Explored how to inspect your project history with git log
+4. And got familiar with concepts like .gitignore and git status
+5. You now have a working Git project right on your local machine.
+
+But what if you want to back up your code, access it from anywhere, or collaborate with others?
+
+That’s where GitHub comes in!
+
+## What’s Next?
+
+In the next blog, we’ll connect your local Git project to a remote repository on GitHub. You’ll learn:
+
+1. Why pushing to GitHub is useful
+2. How to create a GitHub repo
+3. How to connect it to your local repo
+4. How to push your code to the cloud!
+
+These are the foundational steps every developer takes when beginning a new project, this is just the beginning.
+
+### Source
+1. [Git Documentation](https://git-scm.com/doc)
+2. [Git Book](https://git-scm.com/book/en/v2)
+
+[Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
+## Connect with Me
+
+- [![GitHub](https://img.shields.io/badge/GitHub-@SandeepNarasimhan-black?logo=github)](https://github.com/SandeepNarasimhan)  
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sandeep%20Narasimhan-blue?logo=linkedin)](https://www.linkedin.com/in/sandeep-narasimhan-45769295)  
+- [![Email](https://img.shields.io/badge/Email-sandeepsanpande@gmail.com-red?logo=gmail)](mailto:sandeepsanpande@gmail.com)
+
+::: {.callout-caution title="Desclaimer"}
+I use AI tools to assist in writing and drafting some of the content on this blog. but all content is reviewed and edited by me for accuracy and clarity.
+:::
+
+## 💬 Comments
+
+<div id="utterances-thread"></div>
+<script src="https://utteranc.es/client.js"
+        repo="SandeepNarasimhan/Neural-Notes"
+        issue-term="pathname"
+        label="💬 comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

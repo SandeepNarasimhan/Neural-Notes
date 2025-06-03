@@ -158,7 +158,7 @@
     "href": "posts/git and github.html",
     "title": "Version Control Made Easy: Introduction to Git and GitHub",
     "section": "",
-    "text": "Add a .gitkeep or empty .txt file inside each folder so Git can track them even if they’re empty initially:\nYou start with a file called script.py. Then it becomes script_final.py. Then script_final2.py. Eventually, you’re looking at script_final_final_really_final.py.\nIt gets messy fast.\nA system that can remember what changed, when, why and by whom — without relying on awkward filenames or endless copies. That’s exactly where Version Control Systems (VCS) come in.\n{Source: Google Gemini, height=500px, width= 1000px }"
+    "text": "You start with a file called script.py. Then it becomes script_final.py. Then script_final2.py. Eventually, you’re looking at script_final_final_really_final.py.\nIt gets messy fast.\nA system that can remember what changed, when, why and by whom — without relying on awkward filenames or endless copies. That’s exactly where Version Control Systems (VCS) come in.\n{Source: Google Gemini, height=500px, width= 1000px }"
   },
   {
     "objectID": "posts/git and github.html#version-control-system-vcs",
@@ -201,6 +201,41 @@
     "title": "Version Control Made Easy: Introduction to Git and GitHub",
     "section": "Download and Install",
     "text": "Download and Install\nTo start using Git, you’ll need to install it on your machine. Here are the official resources:\nDownload Git\nInstallation Guide\nOnce installed, you can open a terminal (or Git Bash on Windows) and run:\ngit --version\nIf it returns a version number without any error, Git is ready to use!"
+  },
+  {
+    "objectID": "posts/git and github.html#step-by-step-git-workflow",
+    "href": "posts/git and github.html#step-by-step-git-workflow",
+    "title": "Version Control Made Easy: Introduction to Git and GitHub",
+    "section": "Step-by-Step Git Workflow",
+    "text": "Step-by-Step Git Workflow\nWe are going to use the directory created in our last session (ml_project). please reffer Virtual environments in ML projects if you do not have it already. (You can also create a new directory if you want).\nml_project/\n├── data/            # Raw or processed datasets\n├── notebooks/       # Jupyter notebooks for EDA\n├── src/             # Source code / scripts / modules\n├── models/          # Saved model files\n├── venv/            # Virtual environment\n├── requirements.txt # Package list\n\nSet Your Name and Email (one-time setup)\ngit config --global user.name \"Your Full Name\"\ngit config --global user.email \"your.email@example.com\"\nThis configures your name and email and appears in your commit history and helps identify who made each change. Use the same email as your GitHub account to link commits correctly.\n\n\nInitialize Git in Your Project\nAdd a .gitkeep or empty .txt file inside each folder so Git can track them even if they’re empty initially:\ntouch ml_project/{data,notebooks,src,models,outputs,tests}/.gitkeep\nOnce we have created a project directory we can initialize git by\ngit init\nThis turns your folder into a Git repository by creating a hidden .git/ folder. This folder contains everything Git needs to track changes, including:\n\nCommit history\nBranches\nStaging area (index)\nConfiguration settings\n\nIt tells Git: “Start tracking this project.” It enables all Git features like git add, git commit, and git push.\nTo view hidden .git directory you can use\nls -l .git\n\n\n\n\n\n\nCaution\n\n\n\nOnly run git init once per project. If you delete the .git/ folder, you lose all version history.\n\n\nright after initializing git we create two files which are important\necho \"# My Project Title\" &gt; README.md\ntouch .gitignore\nREADME.md is a Markdown file that typically serves as the front page of your project.\nIt should include: - What the project does - How to install/run it - Dependencies - Usage examples and other important project details\n.gitignore tells Git which files or folders NOT to track or include in commits. Examples of what to ignore:\n\nOS/system files (.DS_Store, Thumbs.db)\nIDE/editor files (.vscode/, .idea/)\nLogs or temporary files (.log, .tmp)\nDependency folders (node_modules/, venv/)\nSensitive data (.env, credentials.json)\n\nIn our example we are going to add “venv/” to .gitignore\n\n\n\n\n\n\nCaution\n\n\n\nWithout a .gitignore, Git may track junk or private files that you never meant to upload.\n\n\n\n\nCheck the Current Git Status\nThis shows you: - New/untracked files - Changes that are staged or not staged - What’s ready to commit\ngit status\nYou’ll see something like:\n““” On branch master\nNo commits yet\nUntracked files: (use “git add …” to include in what will be committed)\n.gitignore\nREADME.md\nnothing added to commit but untracked files present (use “git add” to track) ““”\nNow, to track these files\n\n\nStage the File for Commit\ngit add README.md\ngit add .gitignore\nThink of git add as preparing the file to be saved (but not saving yet)\nWorking Directory ──(git add)──▶ Staging Area\n\n\nCommit the File\ngit commit -m \"Add README and .giignore files\"\nThe -m flag adds a commit message describing what you did. it is always a good practice to give a proper desciption of what changes you have done in this commit. git commit takes a snapshot of your staged changes and permanently stores it in the Git repository.\n\nWhy Is git commit Important?\n\nIt records your progress in small, logical steps\nMakes it easier to undo mistakes, collaborate, and track who did what\nHelps in code reviews and project management\n\nWorking Directory ──(git add)──▶ Staging Area ──(git commit)──▶ Git Repository\n\n\n\nCheck the Commit History\ngit log\ngit log displays the history of commits in your repository — from the most recent to the oldest.\nIt shows you: - Who made the commit (name and email) - When it was made - What the commit message was - A unique commit ID (SHA)"
+  },
+  {
+    "objectID": "posts/git and github.html#wrapping-up",
+    "href": "posts/git and github.html#wrapping-up",
+    "title": "Version Control Made Easy: Introduction to Git and GitHub",
+    "section": "Wrapping Up",
+    "text": "Wrapping Up\nIn this post, you’ve taken your very first steps with Git:\n\nYou initialized a Git repository with git init\nLearned how to track changes with git add and git commit\nExplored how to inspect your project history with git log\nAnd got familiar with concepts like .gitignore and git status\nYou now have a working Git project right on your local machine.\n\nBut what if you want to back up your code, access it from anywhere, or collaborate with others?\nThat’s where GitHub comes in!"
+  },
+  {
+    "objectID": "posts/git and github.html#whats-next",
+    "href": "posts/git and github.html#whats-next",
+    "title": "Version Control Made Easy: Introduction to Git and GitHub",
+    "section": "What’s Next?",
+    "text": "What’s Next?\nIn the next blog, we’ll connect your local Git project to a remote repository on GitHub. You’ll learn:\n\nWhy pushing to GitHub is useful\nHow to create a GitHub repo\nHow to connect it to your local repo\nHow to push your code to the cloud!\n\nThese are the foundational steps every developer takes when beginning a new project, this is just the beginning.\n\nSource\n\nGit Documentation\nGit Book\n\nGit Cheatsheet"
+  },
+  {
+    "objectID": "posts/git and github.html#connect-with-me",
+    "href": "posts/git and github.html#connect-with-me",
+    "title": "Version Control Made Easy: Introduction to Git and GitHub",
+    "section": "Connect with Me",
+    "text": "Connect with Me\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesclaimer\n\n\n\nI use AI tools to assist in writing and drafting some of the content on this blog. but all content is reviewed and edited by me for accuracy and clarity."
+  },
+  {
+    "objectID": "posts/git and github.html#comments",
+    "href": "posts/git and github.html#comments",
+    "title": "Version Control Made Easy: Introduction to Git and GitHub",
+    "section": "💬 Comments",
+    "text": "💬 Comments"
   },
   {
     "objectID": "about.html",
