@@ -27,20 +27,68 @@ You can **click on the code blocks and run them interactively** in your browser!
 
 ---
 
-## 📊 Generate Sample Data
+## What is Linear Regression?
 
+Linear regression tries to model the relationship between a dependent variable \( y \) and one or more independent variables \( x \).  
+The simplest form (simple linear regression) fits a line:
+
+\[
+y = \beta_0 + \beta_1 x + \epsilon
+\]
+
+where:
+- \( \beta_0 \) is the intercept
+- \( \beta_1 \) is the slope (coefficient)
+- \( \epsilon \) is the error term
+
+---
+
+## Import libraries and generate a synthetic data
 ```{pyodide}
 import numpy as np
 import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
 
-# Create sample data
-X = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)
-y = np.array([1.2, 2.3, 2.9, 4.4, 5.1])
+# Generate synthetic data
+np.random.seed(42)
+X = 2 * np.random.rand(100, 1)
+y = 4 + 3 * X + np.random.randn(100, 1)  # y = 4 + 3x + noise
 
-plt.scatter(X, y, color='blue')
-plt.title("Sample Data")
-plt.xlabel("X")
-plt.ylabel("y")
-plt.grid(True)
+plt.scatter(X, y, alpha=0.6)
+plt.xlabel('X')
+plt.ylabel('y')
+plt.title('Generated Data')
 plt.show()
+```
+
+## Fit Linear Regression Model
+```{pyodide}
+model = LinearRegression()
+model.fit(X, y)
+
+print(f"Intercept (β₀): {model.intercept_[0]:.2f}")
+print(f"Coefficient (β₁): {model.coef_[0][0]:.2f}")
+```
+
+## Visualize the Regression Line
+```{pyodide}
+plt.scatter(X, y, alpha=0.6, label='Data')
+plt.plot(X, model.predict(X), color='red', label='Regression Line')
+plt.xlabel('X')
+plt.ylabel('y')
+plt.title('Linear Regression Fit')
+plt.legend()
+plt.show()
+```
+
+## Make Predictions with Your Own Input
+### Change the value of x_new below and rerun to predict a new output.
+```{pyodide}
+# You can edit this value to predict for different inputs!
+x_new = 1.5  # <-- Try changing this!
+
+x_new_array = np.array([[x_new]])
+y_pred = model.predict(x_new_array)
+
+print(f"Predicted y for x={x_new}: {y_pred[0][0]:.2f}")
 ```
