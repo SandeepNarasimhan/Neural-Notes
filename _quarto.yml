@@ -52,12 +52,12 @@ format:
     toc: true
     code-tools: false 
     code-overflow: wrap
-    thebe: true
-    thebe-options:
-      binderOptions:
-        repo: SandeepNarasimhan/Neural-Notes
-        urlpath: lab
-        interface: jupyterlab
+    #thebe: true
+    #thebe-options:
+    #  binderOptions:
+    #    repo: SandeepNarasimhan/Neural-Notes
+    #    urlpath: https://mybinder.org
+    #    interface: jupyterlab
 
 execute:
   enabled: true
@@ -67,7 +67,7 @@ execute:
   freeze: auto
 
 # Enable Thebe (code interactivity)
-resources:
-  - thebe
+#resources:
+#  - thebe
 
 
