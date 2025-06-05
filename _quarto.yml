@@ -36,6 +36,14 @@ collections:
 
 format:
   html:
+    include-in-header:
+      text: |
+        <script src="https://unpkg.com/@curvenote/thebe@0.9.1/lib/index.js"></script>
+        <script>
+          window.addEventListener('DOMContentLoaded', (event) => {
+            thebe.bootstrap();
+          });
+        </script>
     theme:
       light: [cosmo, styles.scss]
       dark: [darkly, styles-dark.scss]
@@ -50,14 +58,6 @@ format:
         repo: SandeepNarasimhan/Neural-Notes
         urlpath: lab
         interface: jupyterlab
-    include-in-header:
-      text: |
-        <script src="https://unpkg.com/thebe@latest/lib/index.js"></script>
-        <script>
-          window.addEventListener('DOMContentLoaded', (event) => {
-            thebe.bootstrap();
-          });
-        </script>
 
 execute:
   enabled: true

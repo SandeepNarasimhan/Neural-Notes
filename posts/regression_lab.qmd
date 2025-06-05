@@ -1,12 +1,12 @@
 ---
 title: "Interactive Linear Regression Lab"
-format: html
+format: live-html
 jupyter: python3
 thebe:
   use_thebe: true
   binderOptions:
-    repo: SandeepNarasimhan/Neural-Notes
-    ref: master
+    repo: sandeepnarasimhan/Neural-Notes
+    ref: main
     binderUrl: https://mybinder.org
 ---
 [![Tweet](https://img.shields.io/badge/Tweet-Share_on_Twitter-1DA1F2?logo=twitter)](https://twitter.com/intent/tweet?text=Check%20out%20this%20post!&url=https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html)
@@ -29,7 +29,7 @@ You can **click on the code blocks and run them interactively** in your browser!
 
 ## 📊 Generate Sample Data
 
-```{python}
+```{pyodide}
 import numpy as np
 import matplotlib.pyplot as plt
 

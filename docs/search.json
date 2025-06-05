@@ -154,6 +154,20 @@
     "text": "💬 Comments"
   },
   {
+    "objectID": "posts/regression_lab.html",
+    "href": "posts/regression_lab.html",
+    "title": "Interactive Linear Regression Lab",
+    "section": "",
+    "text": "This interactive lab demonstrates a simple linear regression using scikit-learn.\nYou can click on the code blocks and run them interactively in your browser!"
+  },
+  {
+    "objectID": "posts/regression_lab.html#generate-sample-data",
+    "href": "posts/regression_lab.html#generate-sample-data",
+    "title": "Interactive Linear Regression Lab",
+    "section": "📊 Generate Sample Data",
+    "text": "📊 Generate Sample Data"
+  },
+  {
     "objectID": "posts/git and github.html",
     "href": "posts/git and github.html",
     "title": "Version Control Made Easy: Introduction to Git and GitHub",
@@ -271,19 +285,5 @@
     "title": "Welcome to Neural Notes",
     "section": "💬 Comments",
     "text": "💬 Comments"
-  },
-  {
-    "objectID": "posts/regression_lab.html",
-    "href": "posts/regression_lab.html",
-    "title": "Interactive Linear Regression Lab",
-    "section": "",
-    "text": "This interactive lab demonstrates a simple linear regression using scikit-learn.\nYou can click on the code blocks and run them interactively in your browser!"
-  },
-  {
-    "objectID": "posts/regression_lab.html#generate-sample-data",
-    "href": "posts/regression_lab.html#generate-sample-data",
-    "title": "Interactive Linear Regression Lab",
-    "section": "📊 Generate Sample Data",
-    "text": "📊 Generate Sample Data\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Create sample data\nX = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)\ny = np.array([1.2, 2.3, 2.9, 4.4, 5.1])\n\nplt.scatter(X, y, color='blue')\nplt.title(\"Sample Data\")\nplt.xlabel(\"X\")\nplt.ylabel(\"y\")\nplt.grid(True)\nplt.show()"
   }
 ]
