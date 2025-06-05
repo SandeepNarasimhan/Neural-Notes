@@ -19,5 +19,8 @@
   },
   "posts/git and github.qmd": {
     "git and github.html": "570f41d6"
+  },
+  "posts/regression_lab.qmd": {
+    "regression_lab.html": "64c88e02"
   }
 }

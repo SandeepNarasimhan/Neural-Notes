@@ -4,6 +4,8 @@ project:
   resources:
   - "images/logo_BR.png"
 
+metadata-files: [binder.yml]
+
 website:
   title: "Neural Notes"
   navbar:
@@ -48,6 +50,14 @@ format:
         repo: SandeepNarasimhan/Neural-Notes
         urlpath: lab
         interface: jupyterlab
+    include-in-header:
+      text: |
+        <script src="https://unpkg.com/thebe@latest/lib/index.js"></script>
+        <script>
+          window.addEventListener('DOMContentLoaded', (event) => {
+            thebe.bootstrap();
+          });
+        </script>
 
 execute:
   enabled: true

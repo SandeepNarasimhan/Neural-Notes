@@ -4,14 +4,14 @@
     "href": "posts.html",
     "title": "Neural Notes",
     "section": "",
-    "text": "Welcome to my blog!\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\nMay 30, 2025\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog!\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nInteractive Linear Regression Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\nMay 30, 2025\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\nMay 30, 2025\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nInteractive Linear Regression Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\nMay 30, 2025\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Venvs.html#introduction",
@@ -271,5 +271,19 @@
     "title": "Welcome to Neural Notes",
     "section": "💬 Comments",
     "text": "💬 Comments"
+  },
+  {
+    "objectID": "posts/regression_lab.html",
+    "href": "posts/regression_lab.html",
+    "title": "Interactive Linear Regression Lab",
+    "section": "",
+    "text": "This interactive lab demonstrates a simple linear regression using scikit-learn.\nYou can click on the code blocks and run them interactively in your browser!"
+  },
+  {
+    "objectID": "posts/regression_lab.html#generate-sample-data",
+    "href": "posts/regression_lab.html#generate-sample-data",
+    "title": "Interactive Linear Regression Lab",
+    "section": "📊 Generate Sample Data",
+    "text": "📊 Generate Sample Data\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Create sample data\nX = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)\ny = np.array([1.2, 2.3, 2.9, 4.4, 5.1])\n\nplt.scatter(X, y, color='blue')\nplt.title(\"Sample Data\")\nplt.xlabel(\"X\")\nplt.ylabel(\"y\")\nplt.grid(True)\nplt.show()"
   }
 ]

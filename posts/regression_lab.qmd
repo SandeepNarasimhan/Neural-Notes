@@ -1,0 +1,46 @@
+---
+title: "Interactive Linear Regression Lab"
+format: html
+jupyter: python3
+thebe:
+  use_thebe: true
+  binderOptions:
+    repo: SandeepNarasimhan/Neural-Notes
+    ref: master
+    binderUrl: https://mybinder.org
+---
+[![Tweet](https://img.shields.io/badge/Tweet-Share_on_Twitter-1DA1F2?logo=twitter)](https://twitter.com/intent/tweet?text=Check%20out%20this%20post!&url=https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html)
+[![LinkedIn](https://img.shields.io/badge/Share-LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html)
+[![Email](https://img.shields.io/badge/Email-Share_via_Email-red?logo=gmail)](mailto:?subject=Interesting%20Post&body=Check%20out%20this%20blog%20post%3A%20https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Share-25D366?logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?text=Check%20out%20this%20blog%20post%3A%20https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html)
+[![Reddit](https://img.shields.io/badge/Reddit-Share-orange?logo=reddit)](https://www.reddit.com/submit?url=https%3A%2F%2Fsandeepnarasimhan.github.io%2FNeural-Notes%2Fposts%2FVenvs.html&title=Virtual%20Environments)
+
+
+::: {.callout-warning icon="🛠️" .bg-yellow-100 .border-yellow-500 .text-yellow-800}
+**🚧 Work in Progress!**  
+**Hey! I’m still working on this post. If you’re interested, keep an eye out for updates here — exciting stuff coming soon!!**
+:::
+
+This interactive lab demonstrates a simple linear regression using `scikit-learn`.
+
+You can **click on the code blocks and run them interactively** in your browser!
+
+---
+
+## 📊 Generate Sample Data
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Create sample data
+X = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)
+y = np.array([1.2, 2.3, 2.9, 4.4, 5.1])
+
+plt.scatter(X, y, color='blue')
+plt.title("Sample Data")
+plt.xlabel("X")
+plt.ylabel("y")
+plt.grid(True)
+plt.show()
+```

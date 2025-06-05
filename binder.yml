@@ -1,0 +1,11 @@
+name: python-lab
+channels:
+  - defaults
+dependencies:
+  - python=3.12.9
+  - pip
+  - scikit-learn
+  - matplotlib
+  - numpy
+  - ipykernel
+  - pandas
