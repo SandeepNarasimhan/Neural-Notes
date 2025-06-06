@@ -36,14 +36,6 @@ collections:
 
 format:
   html:
-    include-in-header:
-      text: |
-        <script src="https://unpkg.com/@curvenote/thebe@0.9.1/lib/index.js"></script>
-        <script>
-          window.addEventListener('DOMContentLoaded', (event) => {
-            thebe.bootstrap();
-          });
-        </script>
     theme:
       light: [cosmo, styles.scss]
       dark: [darkly, styles-dark.scss]

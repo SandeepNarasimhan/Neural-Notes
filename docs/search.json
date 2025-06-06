@@ -4,14 +4,14 @@
     "href": "posts.html",
     "title": "Neural Notes",
     "section": "",
-    "text": "Welcome to my blog!\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nInteractive Linear Regression Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\nMay 30, 2025\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog!\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nSimple Linear Regression Lab 1\n\n\n\n\n\n\nJun 6, 2025\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\nMay 30, 2025\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nInteractive Linear Regression Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\nMay 30, 2025\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nSimple Linear Regression Lab 1\n\n\n\n\n\n\nJun 6, 2025\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\nMay 30, 2025\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Venvs.html#introduction",
@@ -156,44 +156,51 @@
   {
     "objectID": "posts/regression_lab.html",
     "href": "posts/regression_lab.html",
-    "title": "Interactive Linear Regression Lab",
+    "title": "Simple Linear Regression Lab 1",
     "section": "",
-    "text": "This interactive lab demonstrates a simple linear regression using scikit-learn.\nYou can click on the code blocks and run them interactively in your browser!"
+    "text": "This interactive lab demonstrates a simple linear regression using scikit-learn.\nYou can click on the code blocks and run them interactively in your browser!\n{Source: Google Gemini, height=500px, width= 1000px }"
   },
   {
     "objectID": "posts/regression_lab.html#what-is-linear-regression",
     "href": "posts/regression_lab.html#what-is-linear-regression",
-    "title": "Interactive Linear Regression Lab",
+    "title": "Simple Linear Regression Lab 1",
     "section": "What is Linear Regression?",
-    "text": "What is Linear Regression?\nLinear regression tries to model the relationship between a dependent variable ( y ) and one or more independent variables ( x ).\nThe simplest form (simple linear regression) fits a line:\n[ y = _0 + _1 x + ]\nwhere: - ( _0 ) is the intercept - ( _1 ) is the slope (coefficient) - ( ) is the error term"
+    "text": "What is Linear Regression?\nLinear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables. It aims to fit a linear equation to observed data, enabling predictions and understanding of the underlying relationships.\n\nWhy Learn Linear Regression?\n\nInterpretability: Coefficients provide insights into the influence of each predictor.\nFoundation: Serves as a stepping stone to more complex models.\nApplicability: Widely used in various fields like economics, biology, and engineering.\n\nThe simplest form (simple linear regression) fits a line:\ny=β0+β1x+ε\nwhere:\n\ny: Dependent variable\nx: Independent variable\nβ0 is the intercept\nβ1 is the slope coefficient\nε is the error term\n\nObjective:\nEstimate 𝛽0 and 𝛽1 such that the sum of squared residuals (differences between observed and predicted values) is minimized.\n\n\n\nWhere is Linear Regression Applied?\n\nPredicting housing prices based on features like size and location.\nEstimating sales based on advertising spend.\nAssessing the impact of education level on income."
   },
   {
-    "objectID": "posts/regression_lab.html#import-libraries-and-generate-a-synthetic-data",
-    "href": "posts/regression_lab.html#import-libraries-and-generate-a-synthetic-data",
-    "title": "Interactive Linear Regression Lab",
-    "section": "Import libraries and generate a synthetic data",
-    "text": "Import libraries and generate a synthetic data"
-  },
-  {
-    "objectID": "posts/regression_lab.html#fit-linear-regression-model",
-    "href": "posts/regression_lab.html#fit-linear-regression-model",
-    "title": "Interactive Linear Regression Lab",
-    "section": "Fit Linear Regression Model",
-    "text": "Fit Linear Regression Model"
-  },
-  {
-    "objectID": "posts/regression_lab.html#visualize-the-regression-line",
-    "href": "posts/regression_lab.html#visualize-the-regression-line",
-    "title": "Interactive Linear Regression Lab",
-    "section": "Visualize the Regression Line",
-    "text": "Visualize the Regression Line"
+    "objectID": "posts/regression_lab.html#implementing-linear-regression-in-python",
+    "href": "posts/regression_lab.html#implementing-linear-regression-in-python",
+    "title": "Simple Linear Regression Lab 1",
+    "section": "Implementing Linear Regression in Python",
+    "text": "Implementing Linear Regression in Python\n\nImport libraries and generate a synthetic data\n\n\n\n\n\n\n\n\nFit Linear Regression Model\n\n\n\n\n\n\nmodel = LinearRegression() This creates an instance of the LinearRegression class from sklearn.linear_model.\nAt this point, the model exists but has not yet seen any data — it’s an empty shell.\nmodel.fit(X, y) This fits the model to the data — it learns the relationship between the input (X) and output (y) by:\n\nCalculating the best-fitting straight line that minimizes the error (specifically, the sum of squared differences between actual and predicted values).\nInternally solving for the coefficients 𝛽0 (intercept) and 𝛽1 (slope) using the Ordinary Least Squares (OLS) method.\n\n\n\nVisualize the Regression Line\n\n\n\n\n\n\nThe linear regression plot provides a visual interpretation of how well the model fits the data. The scattered blue dots represent the actual data points—each showing a real observation of the relationship between the independent variable (X-axis) and the dependent variable (Y-axis). The red line represents the model’s predictions, also known as the line of best fit, which summarizes the linear trend the model has learned from the data. If the red line closely follows the pattern of the dots, it indicates a strong linear relationship and a good model fit. Ideally, the data points should be distributed evenly around the red line with minimal vertical distance (residuals), suggesting that the model is accurately capturing the underlying trend.\n\n\nModel validation\n\n\n\n\n\n\n\nR² measures the proportion of the variance in the target variable that is explained by the features. It tells you how well your model captures the variability in the data. (Range: 0-1)\nMAE gives the average magnitude of the errors in a set of predictions, without considering direction (i.e., all errors are positive).\nMSE calculates the average of the squared errors. Squaring gives more weight to large errors, making it sensitive to outliers.\nRMSE is the square root of MSE, bringing the error back to the same units as the target variable — making it more interpretable.\n\n\n\n\nMetric\nMeaning\nGood Value\n\n\n\n\nR²\n% of variance explained\nCloser to 1\n\n\nMAE\nAvg. absolute error\nCloser to 0\n\n\nMSE\nAvg. squared error\nCloser to 0\n\n\nRMSE\nSquare root of MSE\nCloser to 0"
   },
   {
     "objectID": "posts/regression_lab.html#make-predictions-with-your-own-input",
     "href": "posts/regression_lab.html#make-predictions-with-your-own-input",
-    "title": "Interactive Linear Regression Lab",
+    "title": "Simple Linear Regression Lab 1",
     "section": "Make Predictions with Your Own Input",
-    "text": "Make Predictions with Your Own Input\n\nChange the value of x_new below and rerun to predict a new output."
+    "text": "Make Predictions with Your Own Input\nOnce the model has learned the relationship between X and y, you can use it to: - Predict outcomes for new inputs - Test the model on new data (validation/test set) - Forecast future values (e.g., demand, prices)\n\nChange the value of x_new below and rerun to predict a new output."
+  },
+  {
+    "objectID": "posts/regression_lab.html#conclusion",
+    "href": "posts/regression_lab.html#conclusion",
+    "title": "Simple Linear Regression Lab 1",
+    "section": "Conclusion",
+    "text": "Conclusion\nLinear regression is one of the most fundamental and widely used techniques for modeling the relationship between a dependent variable and one or more independent variables. By fitting a straight line through the data, it provides a clear and interpretable way to understand how changes in inputs affect the output. In this post, we explored how to implement linear regression in Python, interpret the fitted model visually, and evaluate its performance using key metrics like R-squared, MAE, MSE, and RMSE.\nwhile linear regression is simple and powerful, its effectiveness depends on how well the underlying assumptions hold true, such as linearity, homoscedasticity, independence, and normality of residuals. Validating these assumptions is crucial for drawing reliable conclusions from your model.\nFeel free to experiment further by changing inputs, exploring multiple features, or diving deeper into residual analysis to strengthen your grasp on this important topic."
+  },
+  {
+    "objectID": "posts/regression_lab.html#connect-with-me",
+    "href": "posts/regression_lab.html#connect-with-me",
+    "title": "Simple Linear Regression Lab 1",
+    "section": "Connect with Me",
+    "text": "Connect with Me\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesclaimer\n\n\n\nI use AI tools to assist in writing and drafting some of the content on this blog. but all content is reviewed and edited by me for accuracy and clarity."
+  },
+  {
+    "objectID": "posts/regression_lab.html#comments",
+    "href": "posts/regression_lab.html#comments",
+    "title": "Simple Linear Regression Lab 1",
+    "section": "💬 Comments",
+    "text": "💬 Comments"
   },
   {
     "objectID": "posts/git and github.html",
