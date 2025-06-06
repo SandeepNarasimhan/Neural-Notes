@@ -100,12 +100,12 @@ print(f"Coefficient (β₁): {model.coef_[0][0]:.2f}")
 
 **model = LinearRegression()**
 This creates an instance of the LinearRegression class from sklearn.linear_model.  
-At this point, the model exists but has not yet seen any data — it's an empty shell.  
+At this point, the model exists but has not yet seen any data it's an empty shell.  
   
 model.fit(X, y)
-This fits the model to the data — it learns the relationship between the input (X) and output (y) by:
+This fits the model to the data it learns the relationship between the input (X) and output (y) by:
 
-- Calculating the best-fitting straight line that minimizes the error (specifically, the sum of squared differences between actual and predicted values).
+- Calculating the best fitting straight line that minimizes the error (specifically, the sum of squared differences between actual and predicted values).
 
 - Internally solving for the coefficients 𝛽0 (intercept) and 𝛽1 (slope) using the Ordinary Least Squares (OLS) method.
 
@@ -120,7 +120,7 @@ plt.legend()
 plt.show()
 ```
 
-The linear regression plot provides a visual interpretation of how well the model fits the data. The scattered blue dots represent the actual data points—each showing a real observation of the relationship between the independent variable (X-axis) and the dependent variable (Y-axis). The red line represents the model’s predictions, also known as the line of best fit, which summarizes the linear trend the model has learned from the data. If the red line closely follows the pattern of the dots, it indicates a strong linear relationship and a good model fit. Ideally, the data points should be distributed evenly around the red line with minimal vertical distance (residuals), suggesting that the model is accurately capturing the underlying trend.
+The linear regression plot provides a visual interpretation of how well the model fits the data. The scattered blue dots represent the actual data points each showing a real observation of the relationship between the independent variable (X axis) and the dependent variable (Y axis). The red line represents the model’s predictions, also known as the line of best fit, which summarizes the linear trend the model has learned from the data. If the red line closely follows the pattern of the dots, it indicates a strong linear relationship and a good model fit. Ideally, the data points should be distributed evenly around the red line with minimal vertical distance (residuals), suggesting that the model is accurately capturing the underlying trend.
 
 ### Model validation
 ```{pyodide}
@@ -143,7 +143,7 @@ print(f"Root Mean Squared Error (RMSE): {rmse:.4f}")
 1. R² measures the proportion of the variance in the target variable that is explained by the features. It tells you how well your model captures the variability in the data. (Range: 0-1) 
 2. MAE gives the average magnitude of the errors in a set of predictions, without considering direction (i.e., all errors are positive).
 3. MSE calculates the average of the squared errors. Squaring gives more weight to large errors, making it sensitive to outliers.
-4. RMSE is the square root of MSE, bringing the error back to the same units as the target variable — making it more interpretable.
+4. RMSE is the square root of MSE, bringing the error back to the same units as the target variable making it more interpretable.
 
 
 | Metric | Meaning                    | Good Value     |
@@ -174,7 +174,7 @@ print(f"Predicted y for x={x_new}: {y_pred[0][0]:.2f}")
 
 
 ## Conclusion
-Linear regression is one of the most fundamental and widely used techniques for modeling the relationship between a dependent variable and one or more independent variables. By fitting a straight line through the data, it provides a clear and interpretable way to understand how changes in inputs affect the output. In this post, we explored how to implement linear regression in Python, interpret the fitted model visually, and evaluate its performance using key metrics like R-squared, MAE, MSE, and RMSE.  
+Linear regression is one of the most fundamental and widely used techniques for modeling the relationship between a dependent variable and one or more independent variables. By fitting a straight line through the data, it provides a clear and interpretable way to understand how changes in inputs affect the output. In this post, we explored how to implement linear regression in Python, interpret the fitted model visually, and evaluate its performance using key metrics like R squared, MAE, MSE, and RMSE.  
 
 while linear regression is simple and powerful, its effectiveness depends on how well the underlying assumptions hold true, such as linearity, homoscedasticity, independence, and normality of residuals. Validating these assumptions is crucial for drawing reliable conclusions from your model.
 
