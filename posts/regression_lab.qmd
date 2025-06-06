@@ -1,5 +1,5 @@
 ---
-title: "Simple Linear Regression Lab 1"
+title: "Interactive Linear Regression Lab with Python"
 author: "Sandeep N"
 date: 2025-06-06
 format:
