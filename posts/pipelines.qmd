@@ -113,6 +113,10 @@ preprocessor = ColumnTransformer([
 preprocessor
 ```
 
+::: {.callout-note title="Note"}
+ColumnTransformer allows different preprocessing for numerical and categorical features.
+:::
+
 ## Adding a custom Transformer
 ```{python}
 from sklearn.base import BaseEstimator, TransformerMixin
