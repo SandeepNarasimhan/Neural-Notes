@@ -22,5 +22,8 @@
   },
   "posts/regression_lab.qmd": {
     "regression_lab.html": "64c88e02"
+  },
+  "posts/pipelines.qmd": {
+    "pipelines.html": "44abd7ca"
   }
 }

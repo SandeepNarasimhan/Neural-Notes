@@ -4,14 +4,14 @@
     "href": "posts.html",
     "title": "Neural Notes",
     "section": "",
-    "text": "Welcome to my blog!\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nInteractive Linear Regression Lab with Python\n\n\n\n\n\n\nJun 6, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\nMay 30, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog!\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nStreamline Your ML Workflow with Scikit-learn Pipelines\n\n\n\n\n\n\nJun 22, 2025\n\n\n\n\n\n\n\n\n\n\n\nInteractive Linear Regression Lab with Python\n\n\n\n\n\n\nJun 6, 2025\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\nMay 30, 2025\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nInteractive Linear Regression Lab with Python\n\n\n\n\n\n\nJun 6, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\nMay 30, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nStreamline Your ML Workflow with Scikit-learn Pipelines\n\n\n\n\n\n\nJun 22, 2025\n\n\n\n\n\n\n\n\n\n\n\nInteractive Linear Regression Lab with Python\n\n\n\n\n\n\nJun 6, 2025\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\nMay 30, 2025\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Venvs.html#introduction",
@@ -73,6 +73,55 @@
     "objectID": "posts/Venvs.html#comments",
     "href": "posts/Venvs.html#comments",
     "title": "Virtual Environments in ML Projects: Are They Worth the Effort?",
+    "section": "💬 Comments",
+    "text": "💬 Comments"
+  },
+  {
+    "objectID": "posts/regression_lab.html",
+    "href": "posts/regression_lab.html",
+    "title": "Interactive Linear Regression Lab with Python",
+    "section": "",
+    "text": "This interactive lab demonstrates a simple linear regression using scikit-learn.\nYou can click on the code blocks and run them interactively in your browser!\n{Source: Google Gemini, height=500px, width= 1000px }"
+  },
+  {
+    "objectID": "posts/regression_lab.html#what-is-linear-regression",
+    "href": "posts/regression_lab.html#what-is-linear-regression",
+    "title": "Interactive Linear Regression Lab with Python",
+    "section": "What is Linear Regression?",
+    "text": "What is Linear Regression?\nLinear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables. It aims to fit a linear equation to observed data, enabling predictions and understanding of the underlying relationships.\n\nWhy Learn Linear Regression?\n\nInterpretability: Coefficients provide insights into the influence of each predictor.\nFoundation: Serves as a stepping stone to more complex models.\nApplicability: Widely used in various fields like economics, biology, and engineering.\n\nThe simplest form (simple linear regression) fits a line:\ny=β0+β1x+ε\nwhere:\n\ny: Dependent variable\nx: Independent variable\nβ0 is the intercept\nβ1 is the slope coefficient\nε is the error term\n\nObjective:\nEstimate 𝛽0 and 𝛽1 such that the sum of squared residuals (differences between observed and predicted values) is minimized.\n\n\n\nWhere is Linear Regression Applied?\n\nPredicting housing prices based on features like size and location.\nEstimating sales based on advertising spend.\nAssessing the impact of education level on income."
+  },
+  {
+    "objectID": "posts/regression_lab.html#implementing-linear-regression-in-python",
+    "href": "posts/regression_lab.html#implementing-linear-regression-in-python",
+    "title": "Interactive Linear Regression Lab with Python",
+    "section": "Implementing Linear Regression in Python",
+    "text": "Implementing Linear Regression in Python\n\nImport libraries and generate a synthetic data\n\n\n\n\n\n\n\n\nFit Linear Regression Model\n\n\n\n\n\n\nmodel = LinearRegression() This creates an instance of the LinearRegression class from sklearn.linear_model.\nAt this point, the model exists but has not yet seen any data it’s an empty shell.\nmodel.fit(X, y) This fits the model to the data it learns the relationship between the input (X) and output (y) by:\n\nCalculating the best fitting straight line that minimizes the error (specifically, the sum of squared differences between actual and predicted values).\nInternally solving for the coefficients 𝛽0 (intercept) and 𝛽1 (slope) using the Ordinary Least Squares (OLS) method.\n\n\n\nVisualize the Regression Line\n\n\n\n\n\n\nThe linear regression plot provides a visual interpretation of how well the model fits the data. The scattered blue dots represent the actual data points each showing a real observation of the relationship between the independent variable (X axis) and the dependent variable (Y axis). The red line represents the model’s predictions, also known as the line of best fit, which summarizes the linear trend the model has learned from the data. If the red line closely follows the pattern of the dots, it indicates a strong linear relationship and a good model fit. Ideally, the data points should be distributed evenly around the red line with minimal vertical distance (residuals), suggesting that the model is accurately capturing the underlying trend.\n\n\nModel validation\n\n\n\n\n\n\n\nR² measures the proportion of the variance in the target variable that is explained by the features. It tells you how well your model captures the variability in the data. (Range: 0-1)\nMAE gives the average magnitude of the errors in a set of predictions, without considering direction (i.e., all errors are positive).\nMSE calculates the average of the squared errors. Squaring gives more weight to large errors, making it sensitive to outliers.\nRMSE is the square root of MSE, bringing the error back to the same units as the target variable making it more interpretable.\n\n\n\n\nMetric\nMeaning\nGood Value\n\n\n\n\nR²\n% of variance explained\nCloser to 1\n\n\nMAE\nAvg. absolute error\nCloser to 0\n\n\nMSE\nAvg. squared error\nCloser to 0\n\n\nRMSE\nSquare root of MSE\nCloser to 0"
+  },
+  {
+    "objectID": "posts/regression_lab.html#make-predictions-with-your-own-input",
+    "href": "posts/regression_lab.html#make-predictions-with-your-own-input",
+    "title": "Interactive Linear Regression Lab with Python",
+    "section": "Make Predictions with Your Own Input",
+    "text": "Make Predictions with Your Own Input\nOnce the model has learned the relationship between X and y, you can use it to: - Predict outcomes for new inputs - Test the model on new data (validation/test set) - Forecast future values (e.g., demand, prices)\n\nChange the value of x_new below and rerun to predict a new output."
+  },
+  {
+    "objectID": "posts/regression_lab.html#conclusion",
+    "href": "posts/regression_lab.html#conclusion",
+    "title": "Interactive Linear Regression Lab with Python",
+    "section": "Conclusion",
+    "text": "Conclusion\nLinear regression is one of the most fundamental and widely used techniques for modeling the relationship between a dependent variable and one or more independent variables. By fitting a straight line through the data, it provides a clear and interpretable way to understand how changes in inputs affect the output. In this post, we explored how to implement linear regression in Python, interpret the fitted model visually, and evaluate its performance using key metrics like R squared, MAE, MSE, and RMSE.\nwhile linear regression is simple and powerful, its effectiveness depends on how well the underlying assumptions hold true, such as linearity, homoscedasticity, independence, and normality of residuals. Validating these assumptions is crucial for drawing reliable conclusions from your model.\nFeel free to experiment further by changing inputs, exploring multiple features, or diving deeper into residual analysis to strengthen your grasp on this important topic."
+  },
+  {
+    "objectID": "posts/regression_lab.html#connect-with-me",
+    "href": "posts/regression_lab.html#connect-with-me",
+    "title": "Interactive Linear Regression Lab with Python",
+    "section": "Connect with Me",
+    "text": "Connect with Me\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesclaimer\n\n\n\nI use AI tools to assist in writing and drafting some of the content on this blog. but all content is reviewed and edited by me for accuracy and clarity."
+  },
+  {
+    "objectID": "posts/regression_lab.html#comments",
+    "href": "posts/regression_lab.html#comments",
+    "title": "Interactive Linear Regression Lab with Python",
     "section": "💬 Comments",
     "text": "💬 Comments"
   },
@@ -154,51 +203,86 @@
     "text": "💬 Comments"
   },
   {
-    "objectID": "posts/regression_lab.html",
-    "href": "posts/regression_lab.html",
-    "title": "Interactive Linear Regression Lab with Python",
-    "section": "",
-    "text": "This interactive lab demonstrates a simple linear regression using scikit-learn.\nYou can click on the code blocks and run them interactively in your browser!\n{Source: Google Gemini, height=500px, width= 1000px }"
+    "objectID": "posts/pipelines.html#introduction",
+    "href": "posts/pipelines.html#introduction",
+    "title": "Streamline Your ML Workflow with Scikit-learn Pipelines",
+    "section": "Introduction",
+    "text": "Introduction\nIf you’ve spent any time building Machine Learning models, you know the process isn’t just about picking an algorithm and hitting “train.” It involves a series of sequential steps: data preprocessing, feature engineering, scaling, dimensionality reduction, and finally, model training.\n{Source: ChatGPT, height=500px, width= 1000px}\nManaging these steps independently can quickly lead to messy, repetitive code, potential data leakage, and difficulties in hyperparameter tuning. This is where Scikit-learn Pipelines come to the rescue!\nIn this post, we’ll dive deep into what scikit-learn pipelines are, why they’re indispensable for any serious ML project, and how to implement them with practical code examples."
   },
   {
-    "objectID": "posts/regression_lab.html#what-is-linear-regression",
-    "href": "posts/regression_lab.html#what-is-linear-regression",
-    "title": "Interactive Linear Regression Lab with Python",
-    "section": "What is Linear Regression?",
-    "text": "What is Linear Regression?\nLinear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables. It aims to fit a linear equation to observed data, enabling predictions and understanding of the underlying relationships.\n\nWhy Learn Linear Regression?\n\nInterpretability: Coefficients provide insights into the influence of each predictor.\nFoundation: Serves as a stepping stone to more complex models.\nApplicability: Widely used in various fields like economics, biology, and engineering.\n\nThe simplest form (simple linear regression) fits a line:\ny=β0+β1x+ε\nwhere:\n\ny: Dependent variable\nx: Independent variable\nβ0 is the intercept\nβ1 is the slope coefficient\nε is the error term\n\nObjective:\nEstimate 𝛽0 and 𝛽1 such that the sum of squared residuals (differences between observed and predicted values) is minimized.\n\n\n\nWhere is Linear Regression Applied?\n\nPredicting housing prices based on features like size and location.\nEstimating sales based on advertising spend.\nAssessing the impact of education level on income."
+    "objectID": "posts/pipelines.html#the-problem-pipelines-solve-a-messy-workflow",
+    "href": "posts/pipelines.html#the-problem-pipelines-solve-a-messy-workflow",
+    "title": "Streamline Your ML Workflow with Scikit-learn Pipelines",
+    "section": "The Problem Pipelines Solve: A Messy Workflow",
+    "text": "The Problem Pipelines Solve: A Messy Workflow\nImagine you’re building a classification model. Your typical workflow might look like this:\n\nLoad Data: Read your CSV file.\nSplit Data: Separate features (X) and target (y), then split into training and testing sets.\nPreprocess Numerical Features: Apply StandardScaler to numerical columns.\nPreprocess Categorical Features: Apply OneHotEncoder to categorical columns.\nCombine Features: Put all preprocessed features back together.\nTrain Model: Fit your LogisticRegression model on the transformed training data.\nEvaluate Model: Make predictions on the transformed test data and calculate metrics.\n\nThis sequential nature means that every time you want to try a different scaling method, a new feature engineering step, or a different model, you have to manually apply those transformations to both your training and testing data. It’s tedious, error-prone, and worst of all, increases the risk of data leakage.\nData leakage occurs when information from your test set inadvertently “leaks” into your training process. For example, if you fit a StandardScaler on your entire dataset (train + test) before splitting, your scaler learns the mean and standard deviation of the test data, giving your model an unfair advantage during evaluation. Pipelines inherently prevent this."
   },
   {
-    "objectID": "posts/regression_lab.html#implementing-linear-regression-in-python",
-    "href": "posts/regression_lab.html#implementing-linear-regression-in-python",
-    "title": "Interactive Linear Regression Lab with Python",
-    "section": "Implementing Linear Regression in Python",
-    "text": "Implementing Linear Regression in Python\n\nImport libraries and generate a synthetic data\n\n\n\n\n\n\n\n\nFit Linear Regression Model\n\n\n\n\n\n\nmodel = LinearRegression() This creates an instance of the LinearRegression class from sklearn.linear_model.\nAt this point, the model exists but has not yet seen any data it’s an empty shell.\nmodel.fit(X, y) This fits the model to the data it learns the relationship between the input (X) and output (y) by:\n\nCalculating the best fitting straight line that minimizes the error (specifically, the sum of squared differences between actual and predicted values).\nInternally solving for the coefficients 𝛽0 (intercept) and 𝛽1 (slope) using the Ordinary Least Squares (OLS) method.\n\n\n\nVisualize the Regression Line\n\n\n\n\n\n\nThe linear regression plot provides a visual interpretation of how well the model fits the data. The scattered blue dots represent the actual data points each showing a real observation of the relationship between the independent variable (X axis) and the dependent variable (Y axis). The red line represents the model’s predictions, also known as the line of best fit, which summarizes the linear trend the model has learned from the data. If the red line closely follows the pattern of the dots, it indicates a strong linear relationship and a good model fit. Ideally, the data points should be distributed evenly around the red line with minimal vertical distance (residuals), suggesting that the model is accurately capturing the underlying trend.\n\n\nModel validation\n\n\n\n\n\n\n\nR² measures the proportion of the variance in the target variable that is explained by the features. It tells you how well your model captures the variability in the data. (Range: 0-1)\nMAE gives the average magnitude of the errors in a set of predictions, without considering direction (i.e., all errors are positive).\nMSE calculates the average of the squared errors. Squaring gives more weight to large errors, making it sensitive to outliers.\nRMSE is the square root of MSE, bringing the error back to the same units as the target variable making it more interpretable.\n\n\n\n\nMetric\nMeaning\nGood Value\n\n\n\n\nR²\n% of variance explained\nCloser to 1\n\n\nMAE\nAvg. absolute error\nCloser to 0\n\n\nMSE\nAvg. squared error\nCloser to 0\n\n\nRMSE\nSquare root of MSE\nCloser to 0"
+    "objectID": "posts/pipelines.html#what-are-scikit-learn-pipelines",
+    "href": "posts/pipelines.html#what-are-scikit-learn-pipelines",
+    "title": "Streamline Your ML Workflow with Scikit-learn Pipelines",
+    "section": "What are Scikit-learn Pipelines?",
+    "text": "What are Scikit-learn Pipelines?\nA scikit-learn Pipeline sequentially applies a list of transformers and a final estimator. Think of it as a single, consolidated Scikit-learn object that encapsulates your entire machine learning workflow from preprocessing to prediction.\nEach step in the pipeline is a tuple (‘name’, estimator), where ‘name’ is a string identifier for that step (useful for hyperparameter tuning) and ‘estimator’ is a scikit-learn compatible transformer (like StandardScaler, SimpleImputer, OneHotEncoder) or a final estimator (like LogisticRegression, RandomForestClassifier)."
   },
   {
-    "objectID": "posts/regression_lab.html#make-predictions-with-your-own-input",
-    "href": "posts/regression_lab.html#make-predictions-with-your-own-input",
-    "title": "Interactive Linear Regression Lab with Python",
-    "section": "Make Predictions with Your Own Input",
-    "text": "Make Predictions with Your Own Input\nOnce the model has learned the relationship between X and y, you can use it to: - Predict outcomes for new inputs - Test the model on new data (validation/test set) - Forecast future values (e.g., demand, prices)\n\nChange the value of x_new below and rerun to predict a new output."
+    "objectID": "posts/pipelines.html#practical-examples-building-pipelines-step-by-step",
+    "href": "posts/pipelines.html#practical-examples-building-pipelines-step-by-step",
+    "title": "Streamline Your ML Workflow with Scikit-learn Pipelines",
+    "section": "Practical Examples: Building Pipelines Step-by-Step",
+    "text": "Practical Examples: Building Pipelines Step-by-Step\nWe’ll use the Titanic dataset from Seaborn. It contains both numerical and categorical features, making it ideal for demonstrating preprocessing steps in pipelines."
   },
   {
-    "objectID": "posts/regression_lab.html#conclusion",
-    "href": "posts/regression_lab.html#conclusion",
-    "title": "Interactive Linear Regression Lab with Python",
-    "section": "Conclusion",
-    "text": "Conclusion\nLinear regression is one of the most fundamental and widely used techniques for modeling the relationship between a dependent variable and one or more independent variables. By fitting a straight line through the data, it provides a clear and interpretable way to understand how changes in inputs affect the output. In this post, we explored how to implement linear regression in Python, interpret the fitted model visually, and evaluate its performance using key metrics like R squared, MAE, MSE, and RMSE.\nwhile linear regression is simple and powerful, its effectiveness depends on how well the underlying assumptions hold true, such as linearity, homoscedasticity, independence, and normality of residuals. Validating these assumptions is crucial for drawing reliable conclusions from your model.\nFeel free to experiment further by changing inputs, exploring multiple features, or diving deeper into residual analysis to strengthen your grasp on this important topic."
+    "objectID": "posts/pipelines.html#load-dataset",
+    "href": "posts/pipelines.html#load-dataset",
+    "title": "Streamline Your ML Workflow with Scikit-learn Pipelines",
+    "section": "Load Dataset",
+    "text": "Load Dataset\n\nimport seaborn as sns\nimport pandas as pd\n\n# Load the Titanic dataset\ndf = sns.load_dataset(\"titanic\")\n\n# Drop rows with missing target\ndf = df.dropna(subset=[\"survived\"])\n\n# Define features and target\nX = df[[\"pclass\", \"sex\", \"age\", \"fare\", \"embarked\"]]\ny = df[\"survived\"]"
   },
   {
-    "objectID": "posts/regression_lab.html#connect-with-me",
-    "href": "posts/regression_lab.html#connect-with-me",
-    "title": "Interactive Linear Regression Lab with Python",
-    "section": "Connect with Me",
-    "text": "Connect with Me\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesclaimer\n\n\n\nI use AI tools to assist in writing and drafting some of the content on this blog. but all content is reviewed and edited by me for accuracy and clarity."
+    "objectID": "posts/pipelines.html#numerical-features",
+    "href": "posts/pipelines.html#numerical-features",
+    "title": "Streamline Your ML Workflow with Scikit-learn Pipelines",
+    "section": "Numerical features",
+    "text": "Numerical features\n\nfrom sklearn.pipeline import Pipeline\nfrom sklearn.compose import ColumnTransformer\nfrom sklearn.impute import SimpleImputer\nfrom sklearn.preprocessing import OneHotEncoder, StandardScaler\n\n# Numeric columns to scale\nnum_features = [\"age\", \"fare\"]\n\nnum_pipeline = Pipeline([\n    (\"imputer\", SimpleImputer(strategy=\"median\")),\n    (\"scaler\", StandardScaler())\n])\n\nnum_pipeline\n\nPipeline(steps=[('imputer', SimpleImputer(strategy='median')),\n                ('scaler', StandardScaler())])In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.Pipeline?Documentation for PipelineiNot fittedPipeline(steps=[('imputer', SimpleImputer(strategy='median')),\n                ('scaler', StandardScaler())]) SimpleImputer?Documentation for SimpleImputerSimpleImputer(strategy='median') StandardScaler?Documentation for StandardScalerStandardScaler() \n\n\n\nSimpleImputer(strategy=“median”): Fills missing numeric values with the median of the column.\nStandardScaler(): Standardizes features by removing the mean and scaling to unit variance."
   },
   {
-    "objectID": "posts/regression_lab.html#comments",
-    "href": "posts/regression_lab.html#comments",
-    "title": "Interactive Linear Regression Lab with Python",
+    "objectID": "posts/pipelines.html#categorical-features",
+    "href": "posts/pipelines.html#categorical-features",
+    "title": "Streamline Your ML Workflow with Scikit-learn Pipelines",
+    "section": "Categorical Features",
+    "text": "Categorical Features\n\n# Categorical columns to encode\ncat_features = [\"pclass\", \"sex\", \"embarked\", \"age_group\"]\n\ncat_pipeline = Pipeline([\n    (\"imputer\", SimpleImputer(strategy=\"most_frequent\")),\n    (\"encoder\", OneHotEncoder(handle_unknown=\"ignore\"))\n])\n\ncat_pipeline\n\nPipeline(steps=[('imputer', SimpleImputer(strategy='most_frequent')),\n                ('encoder', OneHotEncoder(handle_unknown='ignore'))])In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.Pipeline?Documentation for PipelineiNot fittedPipeline(steps=[('imputer', SimpleImputer(strategy='most_frequent')),\n                ('encoder', OneHotEncoder(handle_unknown='ignore'))]) SimpleImputer?Documentation for SimpleImputerSimpleImputer(strategy='most_frequent') OneHotEncoder?Documentation for OneHotEncoderOneHotEncoder(handle_unknown='ignore') \n\n\n\nSimpleImputer(strategy=“most_frequent”): Fills missing categorical values with the most common category.\nOneHotEncoder(): Converts categorical variables into a binary matrix.\nhandle_unknown=“ignore” ensures the encoder can handle unseen categories during inference."
+  },
+  {
+    "objectID": "posts/pipelines.html#combining-numerical-and-categorical-pipeline-into-one",
+    "href": "posts/pipelines.html#combining-numerical-and-categorical-pipeline-into-one",
+    "title": "Streamline Your ML Workflow with Scikit-learn Pipelines",
+    "section": "Combining Numerical and Categorical pipeline into one",
+    "text": "Combining Numerical and Categorical pipeline into one\n\n# Combine numeric and categorical transformers\npreprocessor = ColumnTransformer([\n    (\"num\", num_pipeline, num_features),\n    (\"cat\", cat_pipeline, cat_features)\n])\n\npreprocessor\n\nColumnTransformer(transformers=[('num',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(strategy='median')),\n                                                 ('scaler', StandardScaler())]),\n                                 ['age', 'fare']),\n                                ('cat',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(strategy='most_frequent')),\n                                                 ('encoder',\n                                                  OneHotEncoder(handle_unknown='ignore'))]),\n                                 ['pclass', 'sex', 'embarked', 'age_group'])])In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.ColumnTransformer?Documentation for ColumnTransformeriNot fittedColumnTransformer(transformers=[('num',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(strategy='median')),\n                                                 ('scaler', StandardScaler())]),\n                                 ['age', 'fare']),\n                                ('cat',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(strategy='most_frequent')),\n                                                 ('encoder',\n                                                  OneHotEncoder(handle_unknown='ignore'))]),\n                                 ['pclass', 'sex', 'embarked', 'age_group'])]) num['age', 'fare'] SimpleImputer?Documentation for SimpleImputerSimpleImputer(strategy='median') StandardScaler?Documentation for StandardScalerStandardScaler() cat['pclass', 'sex', 'embarked', 'age_group'] SimpleImputer?Documentation for SimpleImputerSimpleImputer(strategy='most_frequent') OneHotEncoder?Documentation for OneHotEncoderOneHotEncoder(handle_unknown='ignore')"
+  },
+  {
+    "objectID": "posts/pipelines.html#adding-a-custom-transformer",
+    "href": "posts/pipelines.html#adding-a-custom-transformer",
+    "title": "Streamline Your ML Workflow with Scikit-learn Pipelines",
+    "section": "Adding a custom Transformer",
+    "text": "Adding a custom Transformer\n\nfrom sklearn.base import BaseEstimator, TransformerMixin\n\nclass AgeGroupAdder(BaseEstimator, TransformerMixin):\n    def fit(self, X, y=None):\n        return self\n\n    def transform(self, X):\n        X = X.copy()\n        X[\"age_group\"] = pd.cut(\n            X[\"age\"],\n            bins=[0, 12, 18, 50, 100],\n            labels=[\"child\", \"teen\", \"adult\", \"senior\"]\n        )\n        return X\n\n\nWe inherit from BaseEstimator and TransformerMixin to make it compatible with Scikit-learn pipelines.\npd.cut() creates a new categorical feature age_group by binning the age variable.\nThis step is reusable and testable, like any Scikit-learn transformer."
+  },
+  {
+    "objectID": "posts/pipelines.html#full-pipeline-with-model",
+    "href": "posts/pipelines.html#full-pipeline-with-model",
+    "title": "Streamline Your ML Workflow with Scikit-learn Pipelines",
+    "section": "Full pipeline with Model",
+    "text": "Full pipeline with Model\nWe’ll now build the complete pipeline by chaining the custom transformer, preprocessing, and a simple model.\n\nfrom sklearn.linear_model import LogisticRegression\n\n# Final pipeline\nmodel_pipeline = Pipeline([\n    (\"feature_engineering\", AgeGroupAdder()),\n    (\"preprocessing\", preprocessor),\n    (\"classifier\", LogisticRegression(max_iter=1000))\n])\n\nmodel_pipeline\n\nPipeline(steps=[('feature_engineering', AgeGroupAdder()),\n                ('preprocessing',\n                 ColumnTransformer(transformers=[('num',\n                                                  Pipeline(steps=[('imputer',\n                                                                   SimpleImputer(strategy='median')),\n                                                                  ('scaler',\n                                                                   StandardScaler())]),\n                                                  ['age', 'fare']),\n                                                 ('cat',\n                                                  Pipeline(steps=[('imputer',\n                                                                   SimpleImputer(strategy='most_frequent')),\n                                                                  ('encoder',\n                                                                   OneHotEncoder(handle_unknown='ignore'))]),\n                                                  ['pclass', 'sex', 'embarked',\n                                                   'age_group'])])),\n                ('classifier', LogisticRegression(max_iter=1000))])In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.Pipeline?Documentation for PipelineiNot fittedPipeline(steps=[('feature_engineering', AgeGroupAdder()),\n                ('preprocessing',\n                 ColumnTransformer(transformers=[('num',\n                                                  Pipeline(steps=[('imputer',\n                                                                   SimpleImputer(strategy='median')),\n                                                                  ('scaler',\n                                                                   StandardScaler())]),\n                                                  ['age', 'fare']),\n                                                 ('cat',\n                                                  Pipeline(steps=[('imputer',\n                                                                   SimpleImputer(strategy='most_frequent')),\n                                                                  ('encoder',\n                                                                   OneHotEncoder(handle_unknown='ignore'))]),\n                                                  ['pclass', 'sex', 'embarked',\n                                                   'age_group'])])),\n                ('classifier', LogisticRegression(max_iter=1000))]) AgeGroupAdderAgeGroupAdder() preprocessing: ColumnTransformer?Documentation for preprocessing: ColumnTransformerColumnTransformer(transformers=[('num',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(strategy='median')),\n                                                 ('scaler', StandardScaler())]),\n                                 ['age', 'fare']),\n                                ('cat',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(strategy='most_frequent')),\n                                                 ('encoder',\n                                                  OneHotEncoder(handle_unknown='ignore'))]),\n                                 ['pclass', 'sex', 'embarked', 'age_group'])]) num['age', 'fare'] SimpleImputer?Documentation for SimpleImputerSimpleImputer(strategy='median') StandardScaler?Documentation for StandardScalerStandardScaler() cat['pclass', 'sex', 'embarked', 'age_group'] SimpleImputer?Documentation for SimpleImputerSimpleImputer(strategy='most_frequent') OneHotEncoder?Documentation for OneHotEncoderOneHotEncoder(handle_unknown='ignore') LogisticRegression?Documentation for LogisticRegressionLogisticRegression(max_iter=1000) \n\n\n\nPipeline: Sequentially applies steps.\nLogisticRegression: A basic classification model ideal for binary outcomes like survived."
+  },
+  {
+    "objectID": "posts/pipelines.html#model-training-and-evaluation",
+    "href": "posts/pipelines.html#model-training-and-evaluation",
+    "title": "Streamline Your ML Workflow with Scikit-learn Pipelines",
+    "section": "Model Training and Evaluation",
+    "text": "Model Training and Evaluation\n\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import accuracy_score, classification_report\n\n# Split into train and test sets\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42\n)\n\n# Train the pipeline\nmodel_pipeline.fit(X_train, y_train)\n\n# Make predictions\ny_pred = model_pipeline.predict(X_test)\n\n# Evaluate results\nprint(\"Accuracy:\", accuracy_score(y_test, y_pred))\nprint(classification_report(y_test, y_pred))\n\nAccuracy: 0.8044692737430168\n              precision    recall  f1-score   support\n\n           0       0.82      0.85      0.84       105\n           1       0.77      0.74      0.76        74\n\n    accuracy                           0.80       179\n   macro avg       0.80      0.80      0.80       179\nweighted avg       0.80      0.80      0.80       179\n\n\n\n\ntrain_test_split(): Splits the data into training and test sets.\nfit(): Trains the entire pipeline (including feature engineering and preprocessing).\npredict(): Makes predictions on new data.\naccuracy_score() and classification_report(): Evaluate model performance.\n\n\nScikit-learn pipelines are a powerful way to:\n\nKeep your code clean and modular\nAvoid data leakage by applying transformations only to training data\nEasily include custom steps like feature engineering\n\n\n\nConnect with Me\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesclaimer\n\n\n\nI use AI tools to assist in writing and drafting some of the content on this blog. but all content is reviewed and edited by me for accuracy and clarity."
+  },
+  {
+    "objectID": "posts/pipelines.html#comments",
+    "href": "posts/pipelines.html#comments",
+    "title": "Streamline Your ML Workflow with Scikit-learn Pipelines",
     "section": "💬 Comments",
     "text": "💬 Comments"
   },
@@ -291,7 +375,7 @@
     "href": "about.html",
     "title": "Welcome to Neural Notes",
     "section": "",
-    "text": "Banner\nHi, I’m a data scientist with a deep curiosity for both data and science. I started this blog as a personal learning space — a place to explore new ideas, share what I’m discovering, and grow along the way.\nNeural Notes isn’t just a collection of posts — it’s my digital lab notebook. I’m learning in public, and I’d love to learn with you.\nIf you’re reading any of my posts, feel free to share your thoughts, suggestions, or corrections. Your feedback helps me improve — and maybe together, we can all get a little better at this data game.\nLet’s explore, experiment, and evolve — one post at a time."
+    "text": "{ height=500px, width= 1000px }\nHi, I’m a data scientist with a deep curiosity for both data and science. I started this blog as a personal learning space — a place to explore new ideas, share what I’m discovering, and grow along the way.\nNeural Notes isn’t just a collection of posts — it’s my digital lab notebook. I’m learning in public, and I’d love to learn with you.\nIf you’re reading any of my posts, feel free to share your thoughts, suggestions, or corrections. Your feedback helps me improve — and maybe together, we can all get a little better at this data game.\nLet’s explore, experiment, and evolve — one post at a time."
   },
   {
     "objectID": "about.html#about-me",

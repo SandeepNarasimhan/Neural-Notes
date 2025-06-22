@@ -2,6 +2,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/pipelines.html",
       "/posts/regression_lab.html",
       "/posts/git and github.html",
       "/posts/Venvs.html",
@@ -11,6 +12,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/pipelines.html",
       "/posts/regression_lab.html",
       "/posts/git and github.html",
       "/posts/Venvs.html",
