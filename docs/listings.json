@@ -2,6 +2,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/Descriptive_Statistics.html",
       "/posts/pipelines.html",
       "/posts/regression_lab.html",
       "/posts/git and github.html",
@@ -12,6 +13,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/Descriptive_Statistics.html",
       "/posts/pipelines.html",
       "/posts/regression_lab.html",
       "/posts/git and github.html",
