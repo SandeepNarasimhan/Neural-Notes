@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "Neural Notes",
     "section": "",
-    "text": "Welcome to my blog!\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDescriptive Statistics\n\n\n\n\n\n\nJul 18, 2025\n\n\n\n\n\n\n\n\n\n\n\nStreamline Your ML Workflow with Scikit-learn Pipelines\n\n\n\n\n\n\nJun 22, 2025\n\n\n\n\n\n\n\n\n\n\n\nInteractive Linear Regression Lab with Python\n\n\n\n\n\n\nJun 6, 2025\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\nMay 30, 2025\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog!\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nUpcoming posts\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescriptive Statistics\n\n\n\n\n\n\nJul 18, 2025\n\n\n\n\n\n\n\n\n\n\n\nStreamline Your ML Workflow with Scikit-learn Pipelines\n\n\n\n\n\n\nJun 22, 2025\n\n\n\n\n\n\n\n\n\n\n\nInteractive Linear Regression Lab with Python\n\n\n\n\n\n\nJun 6, 2025\n\n\n\n\n\n\n\n\n\n\n\nVersion Control Made Easy: Introduction to Git and GitHub\n\n\n\n\n\n\nMay 30, 2025\n\n\n\n\n\n\n\n\n\n\n\nVirtual Environments in ML Projects: Are They Worth the Effort?\n\n\n\n\n\n\nMay 29, 2025\n\n\n\n\n\n\n\n\n\n\n\nA Beginner’s Guide to Data Science and Machine Learning\n\n\n\n\n\n\nMay 28, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -411,5 +411,19 @@
     "title": "Descriptive Statistics",
     "section": "",
     "text": "Warning\n\n\n\n🚧 Work in Progress!\nHey! I’m still working on this post. If you’re interested, keep an eye out for updates here — exciting stuff coming soon!!"
+  },
+  {
+    "objectID": "posts/task_management.html",
+    "href": "posts/task_management.html",
+    "title": "Upcoming posts",
+    "section": "",
+    "text": "This is the init_notebook_mode cell from ITables v2.4.4\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n\n&lt;function __main__.style_table(color_by)&gt;"
+  },
+  {
+    "objectID": "task_management.html",
+    "href": "task_management.html",
+    "title": "Upcoming posts",
+    "section": "",
+    "text": "Descriptive Statistics: Turning Raw Data into Meaning\nImportance of feature selection and engineering\nData transformations and its uses"
   }
 ]

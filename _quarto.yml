@@ -10,10 +10,14 @@ website:
   title: "Neural Notes"
   navbar:
     logo: images/logo_BR.png
-    right:
+    left:
       - text: About
         href: about.qmd
       - index.qmd
+    right:
+      - text: Upcoming Posts
+        href: task_management.qmd
+        icon: date
       - icon: github
         href: https://github.com/SandeepNarasimhan/Neural-Notes
         aria-label: GitHub repo

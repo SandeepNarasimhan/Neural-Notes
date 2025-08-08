@@ -1,0 +1,11 @@
+---
+title: "Upcoming posts"
+format: html
+jupyter: python3
+execute:
+  echo: false
+---
+
+1. ### Descriptive Statistics: Turning Raw Data into Meaning
+2. ### Importance of feature selection and engineering
+3. ### Data transformations and its uses

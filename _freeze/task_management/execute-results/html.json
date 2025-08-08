@@ -1,0 +1,12 @@
+{
+  "hash": "85733cf92b542b6f5a4b0adc78ae48fd",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Upcoming posts\"\nformat: html\njupyter: python3\nexecute:\n  echo: false\n---\n\n1. ### Descriptive Statistics: Turning Raw Data into Meaning\n2. ### Importance of feature selection and engineering\n3. ### Data transformations and its uses\n\n",
+    "supporting": [
+      "task_management_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

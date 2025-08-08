@@ -2,6 +2,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/task_management.html",
       "/posts/Descriptive_Statistics.html",
       "/posts/pipelines.html",
       "/posts/regression_lab.html",
